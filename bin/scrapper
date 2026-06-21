@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+repository_root="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
+
+if ! command -v bun >/dev/null 2>&1; then
+  echo "Error: Bun is required to manage the scrapper." >&2
+  exit 1
+fi
+
+case "${1:-}" in
+  build)
+    cd "$repository_root/scrapper"
+    bun run build
+    ;;
+  *)
+    echo "Usage: $0 build" >&2
+    exit 1
+    ;;
+esac
+cd ..

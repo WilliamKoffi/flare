@@ -1,0 +1,3 @@
+- [ ] the script should remove unused keys
+- [ ] the script should use toml instead of json
+- [ ] add a test email to check the send score for each batch

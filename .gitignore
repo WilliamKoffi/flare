@@ -1,5 +1,5 @@
-/target
+/sender/target/
 /credentials.json
 /token.json
 /sent.json
-trash/
+/trash/

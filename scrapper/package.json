@@ -1,0 +1,15 @@
+{
+  "name": "scrapper",
+  "private": true,
+  "scripts": {
+    "build": "bun build main.user.ts --outfile=dist/scrapper.user.js --format=iife --no-splitting && bun run banner",
+    "banner": "bun scripts/banner.ts",
+    "watch": "bun --watch scripts/watcher.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

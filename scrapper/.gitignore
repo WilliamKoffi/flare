@@ -1,2 +1,11 @@
-*
+node_modules/
+bun.lock
+dist/
+
+# Only track source and config
 !.gitignore
+!main.user.ts
+!package.json
+!tsconfig.json
+!scripts/
+trash/
