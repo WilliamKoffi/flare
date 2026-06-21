@@ -1,0 +1,386 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Passer directement au contenu principal" [ref=e2] [cursor=pointer]
+      - link "Aide sur l'accessibilité" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fr-CI
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e12]:
+        - link "Accéder à la page d'accueil de Google" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fr&ictx=0&sa=X&ved=0ahUKEwjlr-HjnpmVAxWHVUEAHabAKR0QpYkNCAw
+          - img "Accéder à la page d'accueil de Google" [ref=e14]
+        - generic [ref=e15]:
+          - combobox "Rech." [ref=e18]: "\"N'GATTA Essy\" \"N'GATTA Essy\""
+          - generic [ref=e19]:
+            - button "Effacer" [ref=e21] [cursor=pointer]:
+              - img [ref=e23]
+            - generic [ref=e26]:
+              - button "Utiliser la recherche vocale" [ref=e27] [cursor=pointer]:
+                - img [ref=e28]
+              - button "Rechercher par image" [ref=e30] [cursor=pointer]:
+                - img [ref=e31]
+        - button "Rechercher" [ref=e33] [cursor=pointer]:
+          - img [ref=e36]
+    - generic [ref=e38]:
+      - button "Paramètres" [ref=e40] [cursor=pointer]:
+        - img [ref=e43]
+      - button "Partager" [ref=e46] [cursor=pointer]:
+        - img [ref=e50]
+      - generic [ref=e52]:
+        - button "Applications Google" [ref=e54] [cursor=pointer]:
+          - img [ref=e55]
+        - link "Connexion" [ref=e59] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fr&passive=true&continue=https://www.google.com/search%3Fq%3D%2522N%2527GATTA%2BEssy%2522&ec=futura_srp_og_si_72236_p
+  - generic [ref=e61]:
+    - navigation [ref=e67]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "Mode IA" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=%22N%27GATTA+Essy%22&sca_esv=7c167de68f00a97c&udm=50&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc7ZL_t3iAe0lB1D4hb_Ohp7Hkn8yWBpuZ8SrFmWun9dg8NU65Njndt8IIZVQ0EZEKHOknnGy95wVx9qCty2nltqytBLvpbDXvMvJWfPAYZnT6gP2W68pPY0kCSBbTX0V_fhFPKs9DtP1-OhiLZbTGRQhnvmonYXM6uiSGfA1n7fn6H1oDg&aep=1&ntc=1&sa=X&ved=2ahUKEwjlr-HjnpmVAxWHVUEAHabAKR0Q2J8OegQIERAD
+              - generic [ref=e81]: Mode IA
+          - listitem [ref=e82]:
+            - link "Tous" [disabled] [ref=e83]:
+              - generic [ref=e85]: Tous
+          - listitem [ref=e86]:
+            - link "Images" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=7c167de68f00a97c&udm=2&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc7ZL_t3iAe0lB1D4hb_Ohp7Hkn8yWBpuZ8SrFmWun9dg8NU65Njndt8IIZVQ0EZEKHOknnGy95wVx9qCty2nltqytBLvpbDXvMvJWfPAYZnT6gP2W68pPY0kCSBbTX0V_fhFPKs9DtP1-OhiLZbTGRQhnvmonYXM6uiSGfA1n7fn6H1oDg&q=%22N%27GATTA+Essy%22&sa=X&ved=2ahUKEwjlr-HjnpmVAxWHVUEAHabAKR0QtKgLegQIFxAB
+              - generic [ref=e89]: Images
+          - listitem [ref=e90]:
+            - link "Vidéos" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=7c167de68f00a97c&udm=7&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc7ZL_t3iAe0lB1D4hb_Ohp7Hkn8yWBpuZ8SrFmWun9dg8NU65Njndt8IIZVQ0EZEKHOknnGy95wVx9qCty2nltqytBLvpbDXvMvJWfPAYZnT6gP2W68pPY0kCSBbTX0V_fhFPKs9DtP1-OhiLZbTGRQhnvmonYXM6uiSGfA1n7fn6H1oDg&q=%22N%27GATTA+Essy%22&sa=X&ved=2ahUKEwjlr-HjnpmVAxWHVUEAHabAKR0QtKgLegQIFhAB
+              - generic [ref=e93]: Vidéos
+          - listitem [ref=e94]:
+            - link "Actualités" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=7c167de68f00a97c&q=%22N%27GATTA+Essy%22&tbm=nws&source=lnms&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc7ZL_t3iAe0lB1D4hb_Ohp7Hkn8yWBpuZ8SrFmWun9dg8NU65Njndt8IIZVQ0EZEKHOknnGy95wVx9qCty2nltqytBLvpbDXvMvJWfPAYZnT6gP2W68pPY0kCSBbTX0V_fhFPKs9DtP1-OhiLZbTGRQhnvmonYXM6uiSGfA1n7fn6H1oDg&sa=X&ved=2ahUKEwjlr-HjnpmVAxWHVUEAHabAKR0Q0pQJegQIFRAB
+              - generic [ref=e97]: Actualités
+          - listitem [ref=e98]:
+            - link "Vidéos courtes" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=7c167de68f00a97c&udm=39&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc7ZL_t3iAe0lB1D4hb_Ohp7Hkn8yWBpuZ8SrFmWun9dg8NU65Njndt8IIZVQ0EZEKHOknnGy95wVx9qCty2nltqytBLvpbDXvMvJWfPAYZnT6gP2W68pPY0kCSBbTX0V_fhFPKs9DtP1-OhiLZbTGRQhnvmonYXM6uiSGfA1n7fn6H1oDg&q=%22N%27GATTA+Essy%22&sa=X&ved=2ahUKEwjlr-HjnpmVAxWHVUEAHabAKR0Qs6gLegQIFBAB
+              - generic [ref=e101]: Vidéos courtes
+          - listitem [ref=e102]:
+            - link "Maps" [ref=e103] [cursor=pointer]:
+              - /url: https://maps.google.com/maps?sca_esv=7c167de68f00a97c&output=search&q=%22N'GATTA+Essy%22&source=lnms&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc7ZL_t3iAe0lB1D4hb_Ohp7Hkn8yWBpuZ8SrFmWun9dg8NU65Njndt8IIZVQ0EZEKHOknnGy95wVx9qCty2nltqytBLvpbDXvMvJWfPAYZnT6gP2W68pPY0kCSBbTX0V_fhFPKs9DtP1-OhiLZbTGRQhnvmonYXM6uiSGfA1n7fn6H1oDg&entry=mc&ved=1t:200715&ictx=111
+              - generic [ref=e105]: Maps
+          - listitem [ref=e106]:
+            - button "Plus de filtres" [ref=e107] [cursor=pointer]:
+              - generic "Plus de filtres" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: Plus
+                  - img [ref=e112]
+        - button "Outils" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: Outils
+            - img [ref=e120]
+    - heading "Résultats de recherche" [level=1] [ref=e122]
+    - generic [ref=e128]:
+      - generic [ref=e129]: Looking for results in English?
+      - link [ref=e130] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e132]
+      - link "Change to English" [ref=e134] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Z6ct9n79TfmT9GtAUHGVV8Qn4FE%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3D%2522N%2527GATTA%2BEssy%2522&hl=en&sa=X&ved=2ahUKEwjlr-HjnpmVAxWHVUEAHabAKR0QhoQCKAF6BAgPEAQ
+      - link "Continuer en Français" [ref=e135] [cursor=pointer]:
+        - /url: "#"
+      - link "Paramètres de langue" [ref=e137] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fr-CI&sa=X&ved=2ahUKEwjlr-HjnpmVAxWHVUEAHabAKR0QiIQCKAN6BAgPEAY#languages
+    - main [ref=e139]:
+      - generic [ref=e143]:
+        - generic [ref=e147]:
+          - heading "Images" [level=2] [ref=e151]
+          - generic [ref=e155]:
+            - generic [ref=e159] [cursor=pointer]:
+              - link "Fiche avocat | Barreau CI App Fiche avocat | Barreau CI App":
+                - /url: https://app.ordredesavocats-ci.net/structures/2a725a1f-7a4a-4ad8-911d-2c35271f6d27
+              - button "Fiche avocat | Barreau CI App" [ref=e161]:
+                - img "Fiche avocat | Barreau CI App" [ref=e163]
+              - generic [ref=e165]:
+                - generic [ref=e167]: Fiche avocat | Barreau CI App
+                - generic [ref=e168]:
+                  - generic [ref=e175]: Fiche avocat | Barreau CI App
+                  - button "À propos de ce résultat" [ref=e178]:
+                    - img [ref=e181]
+            - generic [ref=e186] [cursor=pointer]:
+              - link "Inauguration de la Salle des Avocats « Bâtonnier N'GATTA ... Barreau de Côte d'Ivoire":
+                - /url: https://web.ordredesavocats.ci/inauguration-de-la-salle-des-avocats-batonnier-ngatta-essy-a-la-section-du-tribunal-de-grand-bassam/
+              - button "Inauguration de la Salle des Avocats « Bâtonnier N'GATTA ..." [ref=e188]:
+                - img "Inauguration de la Salle des Avocats « Bâtonnier N'GATTA ..." [ref=e190]
+              - generic [ref=e192]:
+                - generic [ref=e194]: Inauguration de la Salle des Avocats « Bâtonnier N'GATTA ...
+                - generic [ref=e195]:
+                  - generic [ref=e202]: Barreau de Côte d'Ivoire
+                  - button "À propos de ce résultat" [ref=e205]:
+                    - img [ref=e208]
+            - generic [ref=e213] [cursor=pointer]:
+              - link "Inauguration de la Salle des Avocats « Bâtonnier N'GATTA ... Barreau de Côte d'Ivoire":
+                - /url: https://web.ordredesavocats.ci/inauguration-de-la-salle-des-avocats-batonnier-ngatta-essy-a-la-section-du-tribunal-de-grand-bassam/
+              - button "Inauguration de la Salle des Avocats « Bâtonnier N'GATTA ..." [ref=e215]:
+                - img "Inauguration de la Salle des Avocats « Bâtonnier N'GATTA ..." [ref=e217]
+              - generic [ref=e219]:
+                - generic [ref=e221]: Inauguration de la Salle des Avocats « Bâtonnier N'GATTA ...
+                - generic [ref=e222]:
+                  - generic [ref=e229]: Barreau de Côte d'Ivoire
+                  - button "À propos de ce résultat" [ref=e232]:
+                    - img [ref=e235]
+          - button "Afficher plus d'images" [ref=e238] [cursor=pointer]:
+            - separator [ref=e239]
+            - generic [ref=e240]:
+              - generic [ref=e241]: Afficher plus d'images
+              - img [ref=e243]
+        - generic [ref=e247]:
+          - heading "Résultats Web" [level=2] [ref=e248]
+          - generic [ref=e249]:
+            - generic [ref=e252]:
+              - link "CABINET N'GATTA Essy - Fiche avocat | Barreau CI App Annuaire des avocats | Barreau CI App https://app.ordredesavocats-ci.net › structures" [ref=e254] [cursor=pointer]:
+                - /url: https://app.ordredesavocats-ci.net/structures/2a725a1f-7a4a-4ad8-911d-2c35271f6d27
+                - heading "CABINET N'GATTA Essy - Fiche avocat | Barreau CI App" [level=3] [ref=e255]
+                - generic [ref=e261]:
+                  - generic [ref=e263]: Annuaire des avocats | Barreau CI App
+                  - generic [ref=e265]: https://app.ordredesavocats-ci.net › structures
+              - button "À propos de ce résultat" [ref=e266] [cursor=pointer]:
+                - img [ref=e269]
+            - generic [ref=e273]:
+              - text: CABINET
+              - emphasis [ref=e274]: N'GATTA Essy
+              - text: "· INFORMATIONS : · essyngatta@gmail.com · 01 03 69 69 01 · 27 20 21 39 71 · 27 20 22 46 38 · Localisation."
+        - generic [ref=e278]:
+          - generic [ref=e281]:
+            - link "Inauguration de la Salle des Avocats « Bâtonnier N'GATTA ... Barreau de Côte d'Ivoire https://web.ordredesavocats.ci › inauguration-de-la-salle..." [ref=e283] [cursor=pointer]:
+              - /url: https://web.ordredesavocats.ci/inauguration-de-la-salle-des-avocats-batonnier-ngatta-essy-a-la-section-du-tribunal-de-grand-bassam/
+              - heading "Inauguration de la Salle des Avocats « Bâtonnier N'GATTA ..." [level=3] [ref=e284]
+              - generic [ref=e290]:
+                - generic [ref=e292]: Barreau de Côte d'Ivoire
+                - generic [ref=e294]: https://web.ordredesavocats.ci › inauguration-de-la-salle...
+            - button "À propos de ce résultat" [ref=e295] [cursor=pointer]:
+              - img [ref=e298]
+          - generic [ref=e301]:
+            - generic [ref=e302]: 24 juil. 2025 —
+            - generic [ref=e303]:
+              - text: Le Bâtonnier
+              - emphasis [ref=e304]: N'GATTA ESSY
+              - text: ", qui a dirigé de l'Ordre des Avocats (mandat 1997-1999), est reconnu comme l'un des piliers du Barreau ivoirien. Homme ..."
+        - generic [ref=e309]:
+          - heading "Autres questions" [level=2] [ref=e311]
+          - generic [ref=e312]:
+            - button "Qui est le plus grand avocat de Côte d'Ivoire ?" [ref=e318] [cursor=pointer]:
+              - generic [ref=e320]: Qui est le plus grand avocat de Côte d'Ivoire ?
+              - img [ref=e323]
+            - button "Quel est le salaire d'un avocat en FCFA ?" [ref=e332] [cursor=pointer]:
+              - generic [ref=e334]: Quel est le salaire d'un avocat en FCFA ?
+              - img [ref=e337]
+            - button "Quels sont les 3 types d'avocats ?" [ref=e346] [cursor=pointer]:
+              - generic [ref=e348]: Quels sont les 3 types d'avocats ?
+              - img [ref=e351]
+            - button "Combien coûte un avocat à la Cour de cassation ?" [ref=e360] [cursor=pointer]:
+              - generic [ref=e362]: Combien coûte un avocat à la Cour de cassation ?
+              - img [ref=e365]
+        - generic [ref=e370]:
+          - heading "Résultats Web" [level=2] [ref=e371]
+          - generic [ref=e372]:
+            - generic [ref=e375]:
+              - link "CABINET N'GATTA ESSY - Cabinets d'avocats Go Africa Online https://www.goafricaonline.com › ... › Cabinets d'avocats" [ref=e377] [cursor=pointer]:
+                - /url: https://www.goafricaonline.com/ci/1041682-ngatta-essy-cabinets-avocats-abidjan-cote-ivoire
+                - heading "CABINET N'GATTA ESSY - Cabinets d'avocats" [level=3] [ref=e378]
+                - generic [ref=e384]:
+                  - generic [ref=e386]: Go Africa Online
+                  - generic [ref=e388]: https://www.goafricaonline.com › ... › Cabinets d'avocats
+              - button "À propos de ce résultat" [ref=e389] [cursor=pointer]:
+                - img [ref=e392]
+            - generic [ref=e396]:
+              - text: CABINET
+              - emphasis [ref=e397]: N'GATTA ESSY
+              - text: ... Cette entreprise vous appartient ? Coordonnées. 29, Bd Clozel, Imm. TF, 2ème étage,porte 2-C Plateau - ...
+        - generic [ref=e401]:
+          - generic [ref=e404]:
+            - link "Peuple Abouré de la Côte d'Ivoire & Diaspora Facebook · Peuple Abouré de la Côte d'Ivoire & Diaspora Plus de 370 réactions · il y a 4 mois" [ref=e406] [cursor=pointer]:
+              - /url: https://www.facebook.com/royaume.grandbassam/photos/fiert%C3%A9-collective-peuple-abour%C3%A9-de-la-c%C3%B4te-divoire-diaspora-me-ngatta-essy-ancie/1335966455238685/
+              - heading "Peuple Abouré de la Côte d'Ivoire & Diaspora" [level=3] [ref=e407]
+              - generic [ref=e413]:
+                - generic [ref=e415]: Facebook · Peuple Abouré de la Côte d'Ivoire & Diaspora
+                - generic [ref=e417]: Plus de 370 réactions · il y a 4 mois
+            - button "À propos de ce résultat" [ref=e418] [cursor=pointer]:
+              - img [ref=e421]
+          - generic [ref=e425]:
+            - text: Fierté Collective, Peuple Abouré de la Côte d'Ivoire & Diaspora ... Me
+            - emphasis [ref=e426]: N'GATTA ESSY
+            - text: ", Ancien Bâtonnier de l'Ordre des Avocats de 1997 à 1999 ..."
+        - generic [ref=e430]:
+          - generic [ref=e433]:
+            - link "Me N'Gatta Essy fait des précisions | Fraternite Matin PressReader https://www.pressreader.com › cote-d-ivoire › fraternite..." [ref=e435] [cursor=pointer]:
+              - /url: https://www.pressreader.com/cote-d-ivoire/fraternite-matin/20241230/281505051841227?srsltid=AfmBOopwniNi6ObZ26occ8CbpsrulX94MPvt0HaT8l_HFYdStv3N4JKy
+              - heading "Me N'Gatta Essy fait des précisions | Fraternite Matin" [level=3] [ref=e436]
+              - generic [ref=e442]:
+                - generic [ref=e444]: PressReader
+                - generic [ref=e446]: https://www.pressreader.com › cote-d-ivoire › fraternite...
+            - button "À propos de ce résultat" [ref=e447] [cursor=pointer]:
+              - img [ref=e450]
+          - generic [ref=e453]:
+            - generic [ref=e454]: 30 déc. 2024 —
+            - generic [ref=e455]:
+              - text: Me
+              - emphasis [ref=e456]: N'gatta Essy
+              - text: ", avocat, ancien bâtonnier de l'Ordre des avocats, ex-ministre de la Justice et académicien s'est prononcé sur ce sujet. Pour ..."
+        - generic [ref=e460]:
+          - generic [ref=e463]:
+            - link "Bâtonnier Barreau de Côte d'Ivoire https://web.ordredesavocats.ci › batonnier" [ref=e465] [cursor=pointer]:
+              - /url: https://web.ordredesavocats.ci/personnel_category/batonnier/
+              - heading "Bâtonnier" [level=3] [ref=e466]
+              - generic [ref=e472]:
+                - generic [ref=e474]: Barreau de Côte d'Ivoire
+                - generic [ref=e476]: https://web.ordredesavocats.ci › batonnier
+            - button "À propos de ce résultat" [ref=e477] [cursor=pointer]:
+              - img [ref=e480]
+          - generic [ref=e484]:
+            - text: Inauguration de la Salle des Avocats « Bâtonnier
+            - emphasis [ref=e485]: N'GATTA ESSY
+            - text: » à la section du Tribunal de Grand-Bassam · RAPPORT D'ACTIVITES 2024-2025 · Prestation de Serment ...
+        - generic [ref=e489]:
+          - generic [ref=e492]:
+            - link "conférence maitre N'GATTA Essy ASCAD https://www.ascad.ci › confrence-maitre-n-gatta-essy135" [ref=e494] [cursor=pointer]:
+              - /url: https://www.ascad.ci/web/galeriedetail/confrence-maitre-n-gatta-essy135/10
+              - heading "conférence maitre N'GATTA Essy" [level=3] [ref=e495]
+              - generic [ref=e497]:
+                - img [ref=e502]
+                - generic [ref=e504]:
+                  - generic [ref=e506]: ASCAD
+                  - generic [ref=e508]: https://www.ascad.ci › confrence-maitre-n-gatta-essy135
+            - button "À propos de ce résultat" [ref=e509] [cursor=pointer]:
+              - img [ref=e512]
+          - generic [ref=e516]:
+            - text: conférence maitre
+            - emphasis [ref=e517]: N'GATTA Essy
+            - text: . 23 / 12 / 2024. 1. 2. 3. LIRE PLUS... Evènements & agenda. JOURNÉE INTERNATIONALE DES DROITS DE LA FEMME ...
+        - generic [ref=e521]:
+          - generic [ref=e524]:
+            - link "juillet, 2025 Barreau de Côte d'Ivoire https://web.ordredesavocats.ci › 2025" [ref=e526] [cursor=pointer]:
+              - /url: https://web.ordredesavocats.ci/2025/07/
+              - heading "juillet, 2025" [level=3] [ref=e527]
+              - generic [ref=e533]:
+                - generic [ref=e535]: Barreau de Côte d'Ivoire
+                - generic [ref=e537]: https://web.ordredesavocats.ci › 2025
+            - button "À propos de ce résultat" [ref=e538] [cursor=pointer]:
+              - img [ref=e541]
+          - generic [ref=e545]:
+            - text: Inauguration de la Salle des Avocats « Bâtonnier
+            - emphasis [ref=e546]: N'GATTA ESSY
+            - text: » à la section du Tribunal de Grand-Bassam · 24 juillet 2025Barreau Côte d'ivoire. Grand-Bassam ...
+        - generic [ref=e550]:
+          - generic [ref=e553]:
+            - link "Cabinets des avocats | Barreau CI App Annuaire des avocats | Barreau CI App https://app.ordredesavocats-ci.net › structures" [ref=e555] [cursor=pointer]:
+              - /url: https://app.ordredesavocats-ci.net/structures?page=19
+              - heading "Cabinets des avocats | Barreau CI App" [level=3] [ref=e556]
+              - generic [ref=e562]:
+                - generic [ref=e564]: Annuaire des avocats | Barreau CI App
+                - generic [ref=e566]: https://app.ordredesavocats-ci.net › structures
+            - button "À propos de ce résultat" [ref=e567] [cursor=pointer]:
+              - img [ref=e570]
+          - generic [ref=e574]:
+            - text: CABINET
+            - emphasis [ref=e575]: N'GATTA Essy
+            - text: .
+            - emphasis [ref=e576]: N'GATTA Essy
+            - text: ". Voir la fiche · Téléphoner Envoyer e-mail · essyngatta@gmail.com · 01 03 69 69 01. #. CABINET N'GUESSAN Assi Georges. N' ..."
+      - generic [ref=e578]:
+        - generic [ref=e583]:
+          - heading "Recherches associées" [level=2] [ref=e585]
+          - generic [ref=e587]:
+            - generic [ref=e588]:
+              - link "Liste des batonniers de cote d ivoire" [ref=e592] [cursor=pointer]:
+                - /url: /search?sca_esv=7c167de68f00a97c&q=Liste+des+batonniers+de+cote+d+ivoire&sa=X&ved=2ahUKEwjlr-HjnpmVAxWHVUEAHabAKR0Q1QJ6BAgvEAE
+                - generic [ref=e593]:
+                  - generic [ref=e598]: Liste des batonniers de cote d ivoire
+                  - img [ref=e602]
+              - link "Liste des avocats de Côte d'Ivoire pdf" [ref=e607] [cursor=pointer]:
+                - /url: /search?sca_esv=7c167de68f00a97c&q=Liste+des+avocats+de+C%C3%B4te+d%27Ivoire+pdf&sa=X&ved=2ahUKEwjlr-HjnpmVAxWHVUEAHabAKR0Q1QJ6BAgwEAE
+                - generic [ref=e608]:
+                  - generic [ref=e613]: Liste des avocats de Côte d'Ivoire pdf
+                  - img [ref=e617]
+              - link "Avocat commis d'office en Côte d'Ivoire" [ref=e622] [cursor=pointer]:
+                - /url: /search?sca_esv=7c167de68f00a97c&q=Avocat+commis+d%27office+en+C%C3%B4te+d%27Ivoire&sa=X&ved=2ahUKEwjlr-HjnpmVAxWHVUEAHabAKR0Q1QJ6BAg8EAE
+                - generic [ref=e623]:
+                  - generic [ref=e628]: Avocat commis d'office en Côte d'Ivoire
+                  - img [ref=e632]
+              - link "Barreau des avocats" [ref=e637] [cursor=pointer]:
+                - /url: /search?sca_esv=7c167de68f00a97c&q=Barreau+des+avocats&sa=X&ved=2ahUKEwjlr-HjnpmVAxWHVUEAHabAKR0Q1QJ6BAg5EAE
+                - generic [ref=e638]:
+                  - generic [ref=e643]: Barreau des avocats
+                  - img [ref=e647]
+            - generic [ref=e649]:
+              - link "LOrdre des avocat" [ref=e653] [cursor=pointer]:
+                - /url: /search?sca_esv=7c167de68f00a97c&q=LOrdre+des+avocat&sa=X&ved=2ahUKEwjlr-HjnpmVAxWHVUEAHabAKR0Q1QJ6BAg3EAE
+                - generic [ref=e654]:
+                  - generic [ref=e659]: LOrdre des avocat
+                  - img [ref=e663]
+              - link "Maison de lavocat" [ref=e668] [cursor=pointer]:
+                - /url: /search?sca_esv=7c167de68f00a97c&q=Maison+de+lavocat&sa=X&ved=2ahUKEwjlr-HjnpmVAxWHVUEAHabAKR0Q1QJ6BAgyEAE
+                - generic [ref=e669]:
+                  - generic [ref=e674]: Maison de lavocat
+                  - img [ref=e678]
+              - link "Comment appelle t on un groupe d avocats" [ref=e683] [cursor=pointer]:
+                - /url: /search?sca_esv=7c167de68f00a97c&q=Comment+appelle+t+on+un+groupe+d+avocats&sa=X&ved=2ahUKEwjlr-HjnpmVAxWHVUEAHabAKR0Q1QJ6BAguEAE
+                - generic [ref=e684]:
+                  - generic [ref=e689]: Comment appelle t on un groupe d avocats
+                  - img [ref=e693]
+              - link "Liste des avocats au Barreau d' Abidjan" [ref=e698] [cursor=pointer]:
+                - /url: /search?sca_esv=7c167de68f00a97c&q=Liste+des+avocats+au+Barreau+d%27+Abidjan&sa=X&ved=2ahUKEwjlr-HjnpmVAxWHVUEAHabAKR0Q1QJ6BAgxEAE
+                - generic [ref=e699]:
+                  - generic [ref=e704]: Liste des avocats au Barreau d' Abidjan
+                  - img [ref=e708]
+        - navigation [ref=e710]:
+          - heading "Navigation par pages" [level=1] [ref=e711]
+          - text: "1"
+          - link "Page 2" [ref=e714] [cursor=pointer]:
+            - /url: /search?q=%22N'GATTA+Essy%22&sca_esv=7c167de68f00a97c&ei=vFI4auXhLIerhbIPpoGn6QE&start=10&sa=N&sstk=AU9db-BHpsUYNgOIAz0ua38ALK0-QXRAWLsl_ooZFC6H4U56Qn9Hqsw0UueLJ307QcXJkhbc6vhFrCkwSebJ1Ki3K-WydlslYximwA&ved=2ahUKEwjlr-HjnpmVAxWHVUEAHabAKR0Q8tMDegQILBAE
+            - text: "2"
+          - link "Page 3" [ref=e716] [cursor=pointer]:
+            - /url: /search?q=%22N'GATTA+Essy%22&sca_esv=7c167de68f00a97c&ei=vFI4auXhLIerhbIPpoGn6QE&start=20&sa=N&sstk=AU9db-BHpsUYNgOIAz0ua38ALK0-QXRAWLsl_ooZFC6H4U56Qn9Hqsw0UueLJ307QcXJkhbc6vhFrCkwSebJ1Ki3K-WydlslYximwA&ved=2ahUKEwjlr-HjnpmVAxWHVUEAHabAKR0Q8tMDegQILBAG
+            - text: "3"
+          - link "Page 4" [ref=e718] [cursor=pointer]:
+            - /url: /search?q=%22N'GATTA+Essy%22&sca_esv=7c167de68f00a97c&ei=vFI4auXhLIerhbIPpoGn6QE&start=30&sa=N&sstk=AU9db-BHpsUYNgOIAz0ua38ALK0-QXRAWLsl_ooZFC6H4U56Qn9Hqsw0UueLJ307QcXJkhbc6vhFrCkwSebJ1Ki3K-WydlslYximwA&ved=2ahUKEwjlr-HjnpmVAxWHVUEAHabAKR0Q8tMDegQILBAI
+            - text: "4"
+          - link "Page 5" [ref=e720] [cursor=pointer]:
+            - /url: /search?q=%22N'GATTA+Essy%22&sca_esv=7c167de68f00a97c&ei=vFI4auXhLIerhbIPpoGn6QE&start=40&sa=N&sstk=AU9db-BHpsUYNgOIAz0ua38ALK0-QXRAWLsl_ooZFC6H4U56Qn9Hqsw0UueLJ307QcXJkhbc6vhFrCkwSebJ1Ki3K-WydlslYximwA&ved=2ahUKEwjlr-HjnpmVAxWHVUEAHabAKR0Q8tMDegQILBAK
+            - text: "5"
+          - link "Page 6" [ref=e722] [cursor=pointer]:
+            - /url: /search?q=%22N'GATTA+Essy%22&sca_esv=7c167de68f00a97c&ei=vFI4auXhLIerhbIPpoGn6QE&start=50&sa=N&sstk=AU9db-BHpsUYNgOIAz0ua38ALK0-QXRAWLsl_ooZFC6H4U56Qn9Hqsw0UueLJ307QcXJkhbc6vhFrCkwSebJ1Ki3K-WydlslYximwA&ved=2ahUKEwjlr-HjnpmVAxWHVUEAHabAKR0Q8tMDegQILBAM
+            - text: "6"
+          - link "Page 7" [ref=e724] [cursor=pointer]:
+            - /url: /search?q=%22N'GATTA+Essy%22&sca_esv=7c167de68f00a97c&ei=vFI4auXhLIerhbIPpoGn6QE&start=60&sa=N&sstk=AU9db-BHpsUYNgOIAz0ua38ALK0-QXRAWLsl_ooZFC6H4U56Qn9Hqsw0UueLJ307QcXJkhbc6vhFrCkwSebJ1Ki3K-WydlslYximwA&ved=2ahUKEwjlr-HjnpmVAxWHVUEAHabAKR0Q8tMDegQILBAO
+            - text: "7"
+          - link "Page 8" [ref=e726] [cursor=pointer]:
+            - /url: /search?q=%22N'GATTA+Essy%22&sca_esv=7c167de68f00a97c&ei=vFI4auXhLIerhbIPpoGn6QE&start=70&sa=N&sstk=AU9db-BHpsUYNgOIAz0ua38ALK0-QXRAWLsl_ooZFC6H4U56Qn9Hqsw0UueLJ307QcXJkhbc6vhFrCkwSebJ1Ki3K-WydlslYximwA&ved=2ahUKEwjlr-HjnpmVAxWHVUEAHabAKR0Q8tMDegQILBAQ
+            - text: "8"
+          - link "Page 9" [ref=e728] [cursor=pointer]:
+            - /url: /search?q=%22N'GATTA+Essy%22&sca_esv=7c167de68f00a97c&ei=vFI4auXhLIerhbIPpoGn6QE&start=80&sa=N&sstk=AU9db-BHpsUYNgOIAz0ua38ALK0-QXRAWLsl_ooZFC6H4U56Qn9Hqsw0UueLJ307QcXJkhbc6vhFrCkwSebJ1Ki3K-WydlslYximwA&ved=2ahUKEwjlr-HjnpmVAxWHVUEAHabAKR0Q8tMDegQILBAS
+            - text: "9"
+          - link "Page 10" [ref=e730] [cursor=pointer]:
+            - /url: /search?q=%22N'GATTA+Essy%22&sca_esv=7c167de68f00a97c&ei=vFI4auXhLIerhbIPpoGn6QE&start=90&sa=N&sstk=AU9db-BHpsUYNgOIAz0ua38ALK0-QXRAWLsl_ooZFC6H4U56Qn9Hqsw0UueLJ307QcXJkhbc6vhFrCkwSebJ1Ki3K-WydlslYximwA&ved=2ahUKEwjlr-HjnpmVAxWHVUEAHabAKR0Q8tMDegQILBAU
+            - text: "10"
+          - heading "Suivant" [level=2] [ref=e732]:
+            - link "Suivant" [ref=e733] [cursor=pointer]:
+              - /url: /search?q=%22N'GATTA+Essy%22&sca_esv=7c167de68f00a97c&ei=vFI4auXhLIerhbIPpoGn6QE&start=10&sa=N&sstk=AU9db-BHpsUYNgOIAz0ua38ALK0-QXRAWLsl_ooZFC6H4U56Qn9Hqsw0UueLJ307QcXJkhbc6vhFrCkwSebJ1Ki3K-WydlslYximwA&ved=2ahUKEwjlr-HjnpmVAxWHVUEAHabAKR0Q8NMDegQILBAW
+              - generic [ref=e735]: Suivant
+      - navigation
+    - contentinfo [ref=e736]:
+      - heading "Liens de pied de page" [level=1] [ref=e737]
+      - generic [ref=e741]:
+        - generic [ref=e743]:
+          - text: Côte d’Ivoire
+          - generic [ref=e745]:
+            - button "Angré, Abidjan - D'après votre historique d'activité" [ref=e747] [cursor=pointer]:
+              - generic [ref=e748]: Angré, Abidjan
+              - generic [ref=e750]:
+                - text: "-"
+                - generic [ref=e751]: D'après votre historique d'activité
+            - text: "-"
+            - button "Mettre à jour ma position" [ref=e753] [cursor=pointer]: Mettre à jour ma position
+        - generic [ref=e756]:
+          - link "Aide" [ref=e757] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fr-CI&fg=1
+          - link "Envoyer des commentaires" [ref=e758] [cursor=pointer]:
+            - /url: "#"
+          - link "Confidentialité" [ref=e759] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fr-CI&fg=1
+          - link "Conditions" [ref=e760] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fr-CI&fg=1

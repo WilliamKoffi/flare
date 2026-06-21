@@ -1,0 +1,14 @@
+[    1847ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://app.ordredesavocats-ci.net/assets/css/color-1.css%22%20media=%22screen:0
+[    3204ms] TypeError: Cannot read properties of undefined (reading 'top')
+    at https://app.ordredesavocats-ci.net/assets/js/sidebar-menu.js:446:13
+    at https://app.ordredesavocats-ci.net/assets/js/sidebar-menu.js:451:3
+[    3215ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://app.ordredesavocats-ci.net/assets/fonts/themify/themify.woff?-fvbane @ https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js:3
+[    6565ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://app.ordredesavocats-ci.net/assets/images/landing/layout-images/tokyo.jpg:0
+[    6566ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://app.ordredesavocats-ci.net/assets/images/landing/layout-images/paris.jpg:0
+[    6626ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://app.ordredesavocats-ci.net/assets/images/landing/layout-images/moscow.jpg:0
+[    6648ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://app.ordredesavocats-ci.net/assets/images/landing/layout-images/dubai.jpg:0
+[    6651ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://app.ordredesavocats-ci.net/assets/images/landing/layout-images/los-angle.png:0
+[    7148ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://app.ordredesavocats-ci.net/assets/images/landing/layout-images/newyork.png:0
+[    7218ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://app.ordredesavocats-ci.net/assets/images/landing/layout-images/singapore.jpg:0
+[    7230ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://app.ordredesavocats-ci.net/assets/images/landing/layout-images/rome.jpg:0
+[    7305ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://app.ordredesavocats-ci.net/assets/images/landing/layout-images/landon.png:0

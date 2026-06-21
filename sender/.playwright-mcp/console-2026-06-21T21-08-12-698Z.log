@@ -1,0 +1,6 @@
+[     882ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=%22N%27GATTA+Essy%22:42
+[     882ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=%22N%27GATTA+Essy%22:42
+[    1375ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=%22N%27GATTA+Essy%22:42
+[    1375ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=%22N%27GATTA+Essy%22:42
+[    1875ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=%22N%27GATTA+Essy%22:42
+[    1875ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=%22N%27GATTA+Essy%22:42

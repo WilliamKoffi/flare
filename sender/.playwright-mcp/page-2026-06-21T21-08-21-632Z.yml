@@ -1,0 +1,403 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Passer directement au contenu principal" [ref=e2] [cursor=pointer]
+      - link "Aide sur l'accessibilité" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fr-CI
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e12]:
+        - link "Accéder à la page d'accueil de Google" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fr&ictx=0&sa=X&ved=0ahUKEwid6r7nnpmVAxVfWkEAHUKoK3wQpYkNCAw
+          - img "Accéder à la page d'accueil de Google" [ref=e14]
+        - generic [ref=e15]:
+          - combobox "Rech." [ref=e18]: "\"ANELONE YAMNI\" elle avocate \"ANELONE YAMNI\" elle avocate"
+          - generic [ref=e19]:
+            - button "Effacer" [ref=e21] [cursor=pointer]:
+              - img [ref=e23]
+            - generic [ref=e26]:
+              - button "Utiliser la recherche vocale" [ref=e27] [cursor=pointer]:
+                - img [ref=e28]
+              - button "Rechercher par image" [ref=e30] [cursor=pointer]:
+                - img [ref=e31]
+        - button "Rechercher" [ref=e33] [cursor=pointer]:
+          - img [ref=e36]
+    - generic [ref=e38]:
+      - button "Paramètres" [ref=e40] [cursor=pointer]:
+        - img [ref=e43]
+      - button "Partager" [ref=e46] [cursor=pointer]:
+        - img [ref=e50]
+      - generic [ref=e52]:
+        - button "Applications Google" [ref=e54] [cursor=pointer]:
+          - img [ref=e55]
+        - link "Connexion" [ref=e59] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fr&passive=true&continue=https://www.google.com/search%3Fq%3D%2522ANELONE%2BYAMNI%2522%2Belle%2Bavocate&ec=futura_srp_og_si_72236_p
+  - generic [ref=e61]:
+    - navigation [ref=e67]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "Mode IA" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=%22ANELONE+YAMNI%22+elle+avocate&sca_esv=7c167de68f00a97c&udm=50&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc7ZL_t3iAe0lB1D4hb_Ohp7Hkn8yWBpuZ8SrFmWun9dg8NU65Njndt8IIZVQ0EZEKL_EteP3dCIouBsQ5_G5g5R9BUdRtVLehcCp2aGeVTCWwYOe6n9YUooeizdFMGQqzx0AH2omwE3LFV0nvOReDNcgpqb9LbcpFAFk_QD6sF7-_C6NLA&aep=1&ntc=1&sa=X&ved=2ahUKEwid6r7nnpmVAxVfWkEAHUKoK3wQ2J8OegQIEhAD
+              - generic [ref=e81]: Mode IA
+          - listitem [ref=e82]:
+            - link "Tous" [disabled] [ref=e83]:
+              - generic [ref=e85]: Tous
+          - listitem [ref=e86]:
+            - link "Images" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=7c167de68f00a97c&udm=2&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc7ZL_t3iAe0lB1D4hb_Ohp7Hkn8yWBpuZ8SrFmWun9dg8NU65Njndt8IIZVQ0EZEKL_EteP3dCIouBsQ5_G5g5R9BUdRtVLehcCp2aGeVTCWwYOe6n9YUooeizdFMGQqzx0AH2omwE3LFV0nvOReDNcgpqb9LbcpFAFk_QD6sF7-_C6NLA&q=%22ANELONE+YAMNI%22+elle+avocate&sa=X&ved=2ahUKEwid6r7nnpmVAxVfWkEAHUKoK3wQtKgLegQIFBAB
+              - generic [ref=e89]: Images
+          - listitem [ref=e90]:
+            - link "Vidéos" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=7c167de68f00a97c&udm=7&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc7ZL_t3iAe0lB1D4hb_Ohp7Hkn8yWBpuZ8SrFmWun9dg8NU65Njndt8IIZVQ0EZEKL_EteP3dCIouBsQ5_G5g5R9BUdRtVLehcCp2aGeVTCWwYOe6n9YUooeizdFMGQqzx0AH2omwE3LFV0nvOReDNcgpqb9LbcpFAFk_QD6sF7-_C6NLA&q=%22ANELONE+YAMNI%22+elle+avocate&sa=X&ved=2ahUKEwid6r7nnpmVAxVfWkEAHUKoK3wQtKgLegQIFRAB
+              - generic [ref=e93]: Vidéos
+          - listitem [ref=e94]:
+            - link "Actualités" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=7c167de68f00a97c&q=%22ANELONE+YAMNI%22+elle+avocate&tbm=nws&source=lnms&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc7ZL_t3iAe0lB1D4hb_Ohp7Hkn8yWBpuZ8SrFmWun9dg8NU65Njndt8IIZVQ0EZEKL_EteP3dCIouBsQ5_G5g5R9BUdRtVLehcCp2aGeVTCWwYOe6n9YUooeizdFMGQqzx0AH2omwE3LFV0nvOReDNcgpqb9LbcpFAFk_QD6sF7-_C6NLA&sa=X&ved=2ahUKEwid6r7nnpmVAxVfWkEAHUKoK3wQ0pQJegQIFhAB
+              - generic [ref=e97]: Actualités
+          - listitem [ref=e98]:
+            - link "Vidéos courtes" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=7c167de68f00a97c&udm=39&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc7ZL_t3iAe0lB1D4hb_Ohp7Hkn8yWBpuZ8SrFmWun9dg8NU65Njndt8IIZVQ0EZEKL_EteP3dCIouBsQ5_G5g5R9BUdRtVLehcCp2aGeVTCWwYOe6n9YUooeizdFMGQqzx0AH2omwE3LFV0nvOReDNcgpqb9LbcpFAFk_QD6sF7-_C6NLA&q=%22ANELONE+YAMNI%22+elle+avocate&sa=X&ved=2ahUKEwid6r7nnpmVAxVfWkEAHUKoK3wQs6gLegQIFxAB
+              - generic [ref=e101]: Vidéos courtes
+          - listitem [ref=e102]:
+            - link "Web" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=7c167de68f00a97c&udm=web&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc7ZL_t3iAe0lB1D4hb_Ohp7Hkn8yWBpuZ8SrFmWun9dg8NU65Njndt8IIZVQ0EZEKL_EteP3dCIouBsQ5_G5g5R9BUdRtVLehcCp2aGeVTCWwYOe6n9YUooeizdFMGQqzx0AH2omwE3LFV0nvOReDNcgpqb9LbcpFAFk_QD6sF7-_C6NLA&q=%22ANELONE+YAMNI%22+elle+avocate&sa=X&ved=2ahUKEwid6r7nnpmVAxVfWkEAHUKoK3wQs6gLegQIGBAB
+              - generic [ref=e105]: Web
+          - listitem [ref=e106]:
+            - button "Plus de filtres" [ref=e107] [cursor=pointer]:
+              - generic "Plus de filtres" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: Plus
+                  - img [ref=e112]
+        - button "Outils" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: Outils
+            - img [ref=e120]
+    - heading "Résultats de recherche" [level=1] [ref=e122]
+    - generic [ref=e128]:
+      - generic [ref=e129]: Looking for results in English?
+      - link [ref=e130] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e132]
+      - link "Change to English" [ref=e134] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Z6ct9n79TfmT9GtAUHGVV8Qn4FE%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3D%2522ANELONE%2BYAMNI%2522%2Belle%2Bavocate&hl=en&sa=X&ved=2ahUKEwid6r7nnpmVAxVfWkEAHUKoK3wQhoQCKAF6BAgOEAQ
+      - link "Continuer en Français" [ref=e135] [cursor=pointer]:
+        - /url: "#"
+      - link "Paramètres de langue" [ref=e137] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fr-CI&sa=X&ved=2ahUKEwid6r7nnpmVAxVfWkEAHUKoK3wQiIQCKAN6BAgOEAY#languages
+    - main [ref=e139]:
+      - generic [ref=e145]:
+        - heading "Angré, Abidjan" [level=2] [ref=e146]:
+          - img [ref=e149]:
+            - img [ref=e150]
+          - generic [ref=e153]: Angré, Abidjan
+        - generic [ref=e155]:
+          - text: ∙
+          - button "Choisir une zone" [ref=e156] [cursor=pointer]
+        - button "Comment la position est utilisée" [ref=e159] [cursor=pointer]:
+          - img [ref=e161]
+      - generic [ref=e166]:
+        - generic [ref=e169]:
+          - heading "Résultats Web" [level=2] [ref=e170]
+          - generic [ref=e171]:
+            - generic [ref=e174]:
+              - link "Fiche avocat | Barreau CI App Annuaire des avocats | Barreau CI App https://app.ordredesavocats-ci.net › avocat" [ref=e176] [cursor=pointer]:
+                - /url: https://app.ordredesavocats-ci.net/avocat/498492ce-d815-4561-a96e-7e7475f7d35d
+                - heading "Fiche avocat | Barreau CI App" [level=3] [ref=e177]
+                - generic [ref=e183]:
+                  - generic [ref=e185]: Annuaire des avocats | Barreau CI App
+                  - generic [ref=e187]: https://app.ordredesavocats-ci.net › avocat
+              - button "À propos de ce résultat" [ref=e188] [cursor=pointer]:
+                - img [ref=e191]
+            - generic [ref=e195]:
+              - text: Maître
+              - emphasis [ref=e196]: ANELONE YAMNI
+              - text: "· yamni.anelone@ikt-avocats.com · 0759164961. #. Maître IMBOUA-NIAVA A. Marie-Madeleine · contact@ikt-avocatsconseils.net · 07 08 73 09 40."
+        - generic [ref=e207]:
+          - heading "Raisonnement…" [level=2] [ref=e211]:
+            - generic [ref=e212]: Raisonnement…
+          - progressbar "Génération" [ref=e213]
+        - generic [ref=e217]:
+          - heading "Résultats Web" [level=2] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e222]:
+              - link "Annuaire des avocats | Barreau CI App Annuaire des avocats | Barreau CI App https://app.ordredesavocats-ci.net" [ref=e224] [cursor=pointer]:
+                - /url: https://app.ordredesavocats-ci.net/
+                - heading "Annuaire des avocats | Barreau CI App" [level=3] [ref=e225]
+                - generic [ref=e231]:
+                  - generic [ref=e233]: Annuaire des avocats | Barreau CI App
+                  - generic [ref=e235]: https://app.ordredesavocats-ci.net
+              - button "À propos de ce résultat" [ref=e236] [cursor=pointer]:
+                - img [ref=e239]
+            - generic [ref=e243]:
+              - text: Maître
+              - emphasis [ref=e244]: ANELONE YAMNI
+              - text: "· SCPA IMBOUA-KOUAO-TELLA & Associés · yamni.anelone@ikt-avocats.com · 0759164961. #. Maître TRAORE MARIAM · SCPA KSK · traoreemariam.01@ ..."
+        - generic [ref=e249]:
+          - heading "Autres questions" [level=2] [ref=e251]
+          - generic [ref=e252]:
+            - button "Qui est la plus jeune avocate de Côte d'Ivoire ?" [ref=e258] [cursor=pointer]:
+              - generic [ref=e260]: Qui est la plus jeune avocate de Côte d'Ivoire ?
+              - img [ref=e263]
+            - button "Quel est le salaire d'une avocate en Côte d'Ivoire ?" [ref=e272] [cursor=pointer]:
+              - generic [ref=e274]: Quel est le salaire d'une avocate en Côte d'Ivoire ?
+              - img [ref=e277]
+            - button "Qui est le plus grand avocat de Côte d'Ivoire ?" [ref=e286] [cursor=pointer]:
+              - generic [ref=e288]: Qui est le plus grand avocat de Côte d'Ivoire ?
+              - img [ref=e291]
+            - button "Quel est le prix moyen d'une consultation chez un avocat ?" [ref=e300] [cursor=pointer]:
+              - generic [ref=e302]: Quel est le prix moyen d'une consultation chez un avocat ?
+              - img [ref=e305]
+        - generic [ref=e310]:
+          - heading "Résultats Web" [level=2] [ref=e311]
+          - generic [ref=e312]:
+            - generic [ref=e315]:
+              - 'link "Côte d''Ivoire: Akoboissué, le président de la mutuelle ... koaci https://www.koaci.com › article › cote-divoire › justice" [ref=e317] [cursor=pointer]':
+                - /url: https://www.koaci.com/article/2025/05/16/cote-divoire/justice/cote-divoire-akoboissue-le-president-de-la-mutuelle-condamne-a-six-mois-de-prison-ferme-pour-denonciation-calomnieuse-envers-la-sous-prefete_186912.html
+                - 'heading "Côte d''Ivoire: Akoboissué, le président de la mutuelle ..." [level=3] [ref=e318]'
+                - generic [ref=e320]:
+                  - img [ref=e325]
+                  - generic [ref=e327]:
+                    - generic [ref=e329]: koaci
+                    - generic [ref=e331]: https://www.koaci.com › article › cote-divoire › justice
+              - button "À propos de ce résultat" [ref=e332] [cursor=pointer]:
+                - img [ref=e335]
+            - generic [ref=e338]:
+              - generic [ref=e339]: 16 mai 2025 —
+              - generic [ref=e340]:
+                - text: Son
+                - emphasis [ref=e341]: avocat
+                - text: ", Me"
+                - emphasis [ref=e342]: Anelone Yamni
+                - text: ", a déclaré à la sortie du tribunal : « Pas de commentaire à faire, mais nous n'entendons pas faire appel. Nous ..."
+        - generic [ref=e346]:
+          - generic [ref=e349]:
+            - link "Cabinets des avocats | Barreau CI App Annuaire des avocats | Barreau CI App https://app.ordredesavocats-ci.net › structures" [ref=e351] [cursor=pointer]:
+              - /url: https://app.ordredesavocats-ci.net/structures?page=28
+              - heading "Cabinets des avocats | Barreau CI App" [level=3] [ref=e352]
+              - generic [ref=e358]:
+                - generic [ref=e360]: Annuaire des avocats | Barreau CI App
+                - generic [ref=e362]: https://app.ordredesavocats-ci.net › structures
+            - button "À propos de ce résultat" [ref=e363] [cursor=pointer]:
+              - img [ref=e366]
+          - generic [ref=e370]:
+            - emphasis [ref=e371]: ANELONE YAMNI
+            - text: . Voir la fiche · Téléphoner Envoyer e-mail. IMBOUA-NIAVA A. Marie-Madeleine. Voir la fiche · Téléphoner Envoyer e-mail. KOUAO Tahnkwao Hermann.
+        - generic [ref=e375]:
+          - heading "Images" [level=2] [ref=e379]
+          - generic [ref=e383]:
+            - generic [ref=e387] [cursor=pointer]:
+              - link "Fiche avocat | Barreau CI App Fiche avocat | Barreau CI App":
+                - /url: https://app.ordredesavocats-ci.net/avocat/498492ce-d815-4561-a96e-7e7475f7d35d
+              - button "Fiche avocat | Barreau CI App" [ref=e389]:
+                - img "Fiche avocat | Barreau CI App" [ref=e391]
+              - generic [ref=e393]:
+                - generic [ref=e395]: Fiche avocat | Barreau CI App
+                - generic [ref=e396]:
+                  - generic [ref=e403]: Fiche avocat | Barreau CI App
+                  - button "À propos de ce résultat" [ref=e406]:
+                    - img [ref=e409]
+            - generic [ref=e414] [cursor=pointer]:
+              - link "Fiche avocat | Barreau CI App Fiche avocat | Barreau CI App":
+                - /url: https://app.ordredesavocats-ci.net/avocat/498492ce-d815-4561-a96e-7e7475f7d35d
+              - button "Fiche avocat | Barreau CI App" [ref=e416]:
+                - img "Fiche avocat | Barreau CI App" [ref=e418]
+              - generic [ref=e420]:
+                - generic [ref=e422]: Fiche avocat | Barreau CI App
+                - generic [ref=e423]:
+                  - generic [ref=e430]: Fiche avocat | Barreau CI App
+                  - button "À propos de ce résultat" [ref=e433]:
+                    - img [ref=e436]
+            - generic [ref=e441] [cursor=pointer]:
+              - link "Fiche avocat | Barreau CI App Fiche avocat | Barreau CI App":
+                - /url: https://app.ordredesavocats-ci.net/avocat/498492ce-d815-4561-a96e-7e7475f7d35d
+              - button "Fiche avocat | Barreau CI App" [ref=e443]:
+                - img "Fiche avocat | Barreau CI App" [ref=e445]
+              - generic [ref=e447]:
+                - generic [ref=e449]: Fiche avocat | Barreau CI App
+                - generic [ref=e450]:
+                  - generic [ref=e457]: Fiche avocat | Barreau CI App
+                  - button "À propos de ce résultat" [ref=e460]:
+                    - img [ref=e463]
+          - button "Afficher plus d'images" [ref=e466] [cursor=pointer]:
+            - separator [ref=e467]
+            - generic [ref=e468]:
+              - generic [ref=e469]: Afficher plus d'images
+              - img [ref=e471]
+        - generic [ref=e476]:
+          - heading "Résultats de recherche à proximité" [level=2] [ref=e477]
+          - generic [ref=e478]:
+            - heading "Adresses" [level=2] [ref=e482]
+            - generic [ref=e483]:
+              - heading "Carte" [level=3] [ref=e484]
+              - link "Carte" [ref=e487] [cursor=pointer]:
+                - /url: /search?q=%22ANELONE+YAMNI%22+elle+avocate&sca_esv=7c167de68f00a97c&udm=1&lsack=xFI4ap34Id-0hbIPwtCu4Qc&sa=X&ved=2ahUKEwid6r7nnpmVAxVfWkEAHUKoK3wQtgN6BAhPEAM
+            - generic [ref=e491]:
+              - generic [ref=e494]:
+                - 'button "IKT Avocats Note : 4,4 sur 5 35 avis d''utilisateurs · Avocat Plus de 10 ans en activité · Abidjan · 22447400 Fermé · Ouvre à 07:30 lun. \"L''un des meilleurs cabinet d''avocats de côte d''ivoire\"" [ref=e496]':
+                  - generic [ref=e500] [cursor=pointer]:
+                    - heading "IKT Avocats" [level=3] [ref=e501]:
+                      - generic [ref=e502]: IKT Avocats
+                    - generic [ref=e503]:
+                      - 'img "Note : 4,4 sur 5 35 avis d''utilisateurs" [ref=e505]':
+                        - text: 4,4
+                        - img [ref=e506]
+                        - text: (35)
+                      - text: · Avocat
+                    - generic [ref=e509]: Plus de 10 ans en activité · Abidjan · 22447400
+                    - generic [ref=e511]: Fermé · Ouvre à 07:30 lun.
+                    - generic [ref=e513]:
+                      - img [ref=e516]
+                      - generic [ref=e521]: "\"L'un des meilleurs cabinet d'avocats de côte d'ivoire\""
+                - link "Site Web" [ref=e522] [cursor=pointer]:
+                  - /url: http://www.ikt-avocats.com/
+                  - generic [ref=e524]:
+                    - img [ref=e527]
+                    - generic [ref=e529]: Site Web
+                - link "Itinéraire" [ref=e530] [cursor=pointer]:
+                  - /url: /maps/dir//IKT+Avocats,+Abidjan/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0xfc1eb9bce7ec135:0x99d2cf3e498e6340?sa=X&ved=1t:57443&ictx=111
+                  - generic [ref=e532]:
+                    - img [ref=e535]
+                    - generic [ref=e540]: Itinéraire
+              - generic [ref=e544]:
+                - button "Cabinet N'ZI Avocats Aucun avis · Avocat 2ème étage, Porte n° 2222 •, Cocody Riviera Golf les Elias II, Imm. Agave, BP 646 Cidex 3 · 27 22 4 35072 Fermé · Ouvre à 08:00 lun." [ref=e546]:
+                  - generic [ref=e550] [cursor=pointer]:
+                    - heading "Cabinet N'ZI Avocats" [level=3] [ref=e551]:
+                      - generic [ref=e552]: Cabinet N'ZI Avocats
+                    - generic [ref=e553]: Aucun avis · Avocat
+                    - generic [ref=e554]: 2ème étage, Porte n° 2222 •, Cocody Riviera Golf les Elias II, Imm. Agave, BP 646 Cidex 3 · 27 22 4 35072
+                    - generic [ref=e556]: Fermé · Ouvre à 08:00 lun.
+                - link "Itinéraire" [ref=e557] [cursor=pointer]:
+                  - /url: /maps/dir//2%C3%A8me+%C3%A9tage,+Cabinet+N'ZI+Avocats,+Porte+n%C2%B0+2222+%E2%80%A2,+Cocody+Riviera+Golf+les+Elias+II,+Imm.+Agave,+BP+646+Cidex+3,+Abidjan/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0xfc1ed2e0cc940f1:0x771e35e31cd0a6a7?sa=X&ved=1t:57443&ictx=111
+                  - generic [ref=e559]:
+                    - img [ref=e562]
+                    - generic [ref=e567]: Itinéraire
+              - generic [ref=e571]:
+                - 'button "SCPA IMBOUA KOUAO TELLA ET ASSOCIES Note : 4,7 sur 5 3 avis d''utilisateurs · Cabinet d''avocats Plus de 5 ans en activité · 8XJX+FPW · 22447400 \"Cabinet multi-disciplinaire\"" [ref=e573]':
+                  - generic [ref=e577] [cursor=pointer]:
+                    - heading "SCPA IMBOUA KOUAO TELLA ET ASSOCIES" [level=3] [ref=e578]:
+                      - generic [ref=e579]: SCPA IMBOUA KOUAO TELLA ET ASSOCIES
+                    - generic [ref=e580]:
+                      - 'img "Note : 4,7 sur 5 3 avis d''utilisateurs" [ref=e582]':
+                        - text: 4,7
+                        - img [ref=e583]
+                        - text: (3)
+                      - text: · Cabinet d'avocats
+                    - generic [ref=e586]: Plus de 5 ans en activité · 8XJX+FPW · 22447400
+                    - generic [ref=e588]:
+                      - img [ref=e591]
+                      - generic [ref=e595]: "\"Cabinet multi-disciplinaire\""
+                - link "Site Web" [ref=e596] [cursor=pointer]:
+                  - /url: http://www.ikt-avocats.com/
+                  - generic [ref=e598]:
+                    - img [ref=e601]
+                    - generic [ref=e603]: Site Web
+                - link "Itinéraire" [ref=e604] [cursor=pointer]:
+                  - /url: /maps/dir//8XJX%2BFPW+SCPA+IMBOUA+KOUAO+TELLA+ET+ASSOCIES,+Abidjan/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0xfc1ebd3f0739943:0x64f5022e77f8380f?sa=X&ved=1t:57443&ictx=111
+                  - generic [ref=e606]:
+                    - img [ref=e609]
+                    - generic [ref=e614]: Itinéraire
+            - heading "Voir plus de lieux" [level=3] [ref=e618]:
+              - link "Voir plus de lieux" [ref=e620] [cursor=pointer]:
+                - /url: /search?q=%22ANELONE+YAMNI%22+elle+avocate&sca_esv=7c167de68f00a97c&udm=1&lsack=xFI4ap34Id-0hbIPwtCu4Qc&sa=X&ved=2ahUKEwid6r7nnpmVAxVfWkEAHUKoK3wQjGp6BAhREAE
+                - separator [ref=e621]
+                - generic [ref=e622]:
+                  - generic [ref=e623]: Voir plus de lieux
+                  - img [ref=e625]
+        - generic [ref=e629]:
+          - heading "Résultats Web" [level=2] [ref=e630]
+          - generic [ref=e631]:
+            - generic [ref=e634]:
+              - link "Auprohada Section UCAO-UUA (@ ... Instagram · auprohada_section_ucaouua Plus de 100 abonnés" [ref=e636] [cursor=pointer]:
+                - /url: https://www.instagram.com/auprohada_section_ucaouua/
+                - heading "Auprohada Section UCAO-UUA (@ ..." [level=3] [ref=e637]
+                - generic [ref=e643]:
+                  - generic [ref=e645]: Instagram · auprohada_section_ucaouua
+                  - generic [ref=e647]: Plus de 100 abonnés
+              - button "À propos de ce résultat" [ref=e648] [cursor=pointer]:
+                - img [ref=e651]
+            - generic [ref=e655]:
+              - text: "Il s'agit de : - 𝖬𝗆𝖾 𝖪𝖠𝖣𝖨𝖣𝖩𝖠 𝖠𝖣𝖹𝖮𝖹𝖠, 𝖩𝗎𝗋𝗂𝗌𝗍𝖾 𝗌𝗉𝖾́𝖼𝗂𝖺𝗅𝗂𝗌𝖾́𝖾 𝖾𝗇 𝗉𝗋𝗈𝗍𝖾𝖼𝗍𝗂𝗈𝗇 𝖽𝖾𝗌 𝖽𝗈𝗇𝗇𝖾́𝖾𝗌 𝖺̀ 𝖼𝖺𝗋𝖺𝖼𝗍𝖾̀𝗋𝖾 𝗉𝖾𝗋𝗌𝗈𝗇𝗇𝖾𝗅 - 𝖬𝖾"
+              - emphasis [ref=e656]: 𝖠𝖭𝖤𝖫𝖮𝖭𝖤 𝖸𝖠𝖬𝖭𝖨
+              - text: ","
+              - emphasis [ref=e657]: 𝖠𝗏𝗈𝖼𝖺𝗍
+              - text: "#droit #ucaouua ..."
+      - generic [ref=e659]:
+        - generic [ref=e664]:
+          - heading "Recherches associées" [level=2] [ref=e666]
+          - generic [ref=e668]:
+            - generic [ref=e669]:
+              - link "Avocature profession avocat" [ref=e673] [cursor=pointer]:
+                - /url: /search?sca_esv=7c167de68f00a97c&q=Avocature+profession+avocat&sa=X&ved=2ahUKEwid6r7nnpmVAxVfWkEAHUKoK3wQ1QJ6BAgzEAE
+                - generic [ref=e674]:
+                  - generic [ref=e679]: Avocature profession avocat
+                  - img [ref=e683]
+              - link "Âge limite pour devenir avocat" [ref=e688] [cursor=pointer]:
+                - /url: /search?sca_esv=7c167de68f00a97c&q=%C3%82ge+limite+pour+devenir+avocat&sa=X&ved=2ahUKEwid6r7nnpmVAxVfWkEAHUKoK3wQ1QJ6BAg6EAE
+                - generic [ref=e689]:
+                  - generic [ref=e694]: Âge limite pour devenir avocat
+                  - img [ref=e698]
+              - link "Liste des batonniers de cote d ivoire" [ref=e703] [cursor=pointer]:
+                - /url: /search?sca_esv=7c167de68f00a97c&q=Liste+des+batonniers+de+cote+d+ivoire&sa=X&ved=2ahUKEwid6r7nnpmVAxVfWkEAHUKoK3wQ1QJ6BAg5EAE
+                - generic [ref=e704]:
+                  - generic [ref=e709]: Liste des batonniers de cote d ivoire
+                  - img [ref=e713]
+              - link "Inscription avocat barreau" [ref=e718] [cursor=pointer]:
+                - /url: /search?sca_esv=7c167de68f00a97c&q=Inscription+avocat+barreau&sa=X&ved=2ahUKEwid6r7nnpmVAxVfWkEAHUKoK3wQ1QJ6BAg4EAE
+                - generic [ref=e719]:
+                  - generic [ref=e724]: Inscription avocat barreau
+                  - img [ref=e728]
+            - generic [ref=e730]:
+              - link "Maison de lavocat" [ref=e734] [cursor=pointer]:
+                - /url: /search?sca_esv=7c167de68f00a97c&q=Maison+de+lavocat&sa=X&ved=2ahUKEwid6r7nnpmVAxVfWkEAHUKoK3wQ1QJ6BAg3EAE
+                - generic [ref=e735]:
+                  - generic [ref=e740]: Maison de lavocat
+                  - img [ref=e744]
+              - link "Devenir avocat en Côte d'Ivoire" [ref=e749] [cursor=pointer]:
+                - /url: /search?sca_esv=7c167de68f00a97c&q=Devenir+avocat+en+C%C3%B4te+d%27Ivoire&sa=X&ved=2ahUKEwid6r7nnpmVAxVfWkEAHUKoK3wQ1QJ6BAg1EAE
+                - generic [ref=e750]:
+                  - generic [ref=e755]: Devenir avocat en Côte d'Ivoire
+                  - img [ref=e759]
+              - link "Les meilleurs cabinets d'avocats en Côte d'Ivoire" [ref=e764] [cursor=pointer]:
+                - /url: /search?sca_esv=7c167de68f00a97c&q=Les+meilleurs+cabinets+d%27avocats+en+C%C3%B4te+d%27Ivoire&sa=X&ved=2ahUKEwid6r7nnpmVAxVfWkEAHUKoK3wQ1QJ6BAg2EAE
+                - generic [ref=e765]:
+                  - generic [ref=e770]: Les meilleurs cabinets d'avocats en Côte d'Ivoire
+                  - img [ref=e774]
+              - link "LOrdre des avocat" [ref=e779] [cursor=pointer]:
+                - /url: /search?sca_esv=7c167de68f00a97c&q=LOrdre+des+avocat&sa=X&ved=2ahUKEwid6r7nnpmVAxVfWkEAHUKoK3wQ1QJ6BAg0EAE
+                - generic [ref=e780]:
+                  - generic [ref=e785]: LOrdre des avocat
+                  - img [ref=e789]
+        - generic [ref=e791]:
+          - heading "Remarques sur les résultats filtrés" [level=2] [ref=e792]
+          - paragraph [ref=e794]:
+            - generic [ref=e795]:
+              - text: Afin d'afficher les résultats les plus pertinents, nous avons omis quelques entrées qui sont très similaires aux 5 entrées actuelles.
+              - text: Si vous le souhaitez, vous pouvez
+              - link "relancer la recherche pour inclure les résultats omis" [ref=e796] [cursor=pointer]:
+                - /url: /search?q=%22ANELONE+YAMNI%22+elle+avocate&sca_esv=7c167de68f00a97c&filter=0
+              - text: .
+        - navigation
+      - navigation
+    - contentinfo [ref=e797]:
+      - heading "Liens de pied de page" [level=1] [ref=e798]
+      - generic [ref=e802]:
+        - generic [ref=e804]:
+          - text: Côte d’Ivoire
+          - generic [ref=e806]:
+            - button "Angré, Abidjan - D'après votre historique d'activité" [ref=e808] [cursor=pointer]:
+              - generic [ref=e809]: Angré, Abidjan
+              - generic [ref=e811]:
+                - text: "-"
+                - generic [ref=e812]: D'après votre historique d'activité
+            - text: "-"
+            - button "Mettre à jour ma position" [ref=e814] [cursor=pointer]: Mettre à jour ma position
+        - generic [ref=e817]:
+          - link "Aide" [ref=e818] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fr-CI&fg=1
+          - link "Envoyer des commentaires" [ref=e819] [cursor=pointer]:
+            - /url: "#"
+          - link "Confidentialité" [ref=e820] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fr-CI&fg=1
+          - link "Conditions" [ref=e821] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fr-CI&fg=1

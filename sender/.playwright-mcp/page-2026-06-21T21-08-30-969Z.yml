@@ -1,0 +1,375 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Passer directement au contenu principal" [ref=e2] [cursor=pointer]
+      - link "Aide sur l'accessibilité" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fr-CI
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e12]:
+        - link "Accéder à la page d'accueil de Google" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fr&ictx=0&sa=X&ved=0ahUKEwiE4PHrnpmVAxWxSEEAHTXtFcsQpYkNCAw
+          - img "Accéder à la page d'accueil de Google" [ref=e14]
+        - generic [ref=e15]:
+          - combobox "Rech." [ref=e18]: "\"AKPOUE BROU\" avocat \"AKPOUE BROU\" avocat"
+          - generic [ref=e19]:
+            - button "Effacer" [ref=e21] [cursor=pointer]:
+              - img [ref=e23]
+            - generic [ref=e26]:
+              - button "Utiliser la recherche vocale" [ref=e27] [cursor=pointer]:
+                - img [ref=e28]
+              - button "Rechercher par image" [ref=e30] [cursor=pointer]:
+                - img [ref=e31]
+        - button "Rechercher" [ref=e33] [cursor=pointer]:
+          - img [ref=e36]
+    - generic [ref=e38]:
+      - button "Paramètres" [ref=e40] [cursor=pointer]:
+        - img [ref=e43]
+      - button "Partager" [ref=e46] [cursor=pointer]:
+        - img [ref=e50]
+      - generic [ref=e52]:
+        - button "Applications Google" [ref=e54] [cursor=pointer]:
+          - img [ref=e55]
+        - link "Connexion" [ref=e59] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fr&passive=true&continue=https://www.google.com/search%3Fq%3D%2522AKPOUE%2BBROU%2522%2Bavocat&ec=futura_srp_og_si_72236_p
+  - generic [ref=e61]:
+    - navigation [ref=e67]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "Mode IA" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=%22AKPOUE+BROU%22+avocat&sca_esv=7c167de68f00a97c&udm=50&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZcx03T_c-sxlWNSQGlFlWDknwWQhu248SP6Defsqge3KAAIlGtex4bApITV-76CXoUCzzmhjM1gjN5ToGW71qRAgjTbmKqAF0Ln-Cx4ijCZygbZDZZmkfcbC7Os5_x9SiDmNbczJR6FjGQTwsHYtL3Cp-0jeHJgVg1Qzg6SeUvgXbU_wUFw&aep=1&ntc=1&sa=X&ved=2ahUKEwiE4PHrnpmVAxWxSEEAHTXtFcsQ2J8OegQIExAD
+              - generic [ref=e81]: Mode IA
+          - listitem [ref=e82]:
+            - link "Tous" [disabled] [ref=e83]:
+              - generic [ref=e85]: Tous
+          - listitem [ref=e86]:
+            - link "Images" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=7c167de68f00a97c&udm=2&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZcx03T_c-sxlWNSQGlFlWDknwWQhu248SP6Defsqge3KAAIlGtex4bApITV-76CXoUCzzmhjM1gjN5ToGW71qRAgjTbmKqAF0Ln-Cx4ijCZygbZDZZmkfcbC7Os5_x9SiDmNbczJR6FjGQTwsHYtL3Cp-0jeHJgVg1Qzg6SeUvgXbU_wUFw&q=%22AKPOUE+BROU%22+avocat&sa=X&ved=2ahUKEwiE4PHrnpmVAxWxSEEAHTXtFcsQtKgLegQIGRAB
+              - generic [ref=e89]: Images
+          - listitem [ref=e90]:
+            - link "Actualités" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=7c167de68f00a97c&q=%22AKPOUE+BROU%22+avocat&tbm=nws&source=lnms&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZcx03T_c-sxlWNSQGlFlWDknwWQhu248SP6Defsqge3KAAIlGtex4bApITV-76CXoUCzzmhjM1gjN5ToGW71qRAgjTbmKqAF0Ln-Cx4ijCZygbZDZZmkfcbC7Os5_x9SiDmNbczJR6FjGQTwsHYtL3Cp-0jeHJgVg1Qzg6SeUvgXbU_wUFw&sa=X&ved=2ahUKEwiE4PHrnpmVAxWxSEEAHTXtFcsQ0pQJegQIFxAB
+              - generic [ref=e93]: Actualités
+          - listitem [ref=e94]:
+            - link "Vidéos" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=7c167de68f00a97c&udm=7&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZcx03T_c-sxlWNSQGlFlWDknwWQhu248SP6Defsqge3KAAIlGtex4bApITV-76CXoUCzzmhjM1gjN5ToGW71qRAgjTbmKqAF0Ln-Cx4ijCZygbZDZZmkfcbC7Os5_x9SiDmNbczJR6FjGQTwsHYtL3Cp-0jeHJgVg1Qzg6SeUvgXbU_wUFw&q=%22AKPOUE+BROU%22+avocat&sa=X&ved=2ahUKEwiE4PHrnpmVAxWxSEEAHTXtFcsQtKgLegQIGBAB
+              - generic [ref=e97]: Vidéos
+          - listitem [ref=e98]:
+            - link "Vidéos courtes" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=7c167de68f00a97c&udm=39&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZcx03T_c-sxlWNSQGlFlWDknwWQhu248SP6Defsqge3KAAIlGtex4bApITV-76CXoUCzzmhjM1gjN5ToGW71qRAgjTbmKqAF0Ln-Cx4ijCZygbZDZZmkfcbC7Os5_x9SiDmNbczJR6FjGQTwsHYtL3Cp-0jeHJgVg1Qzg6SeUvgXbU_wUFw&q=%22AKPOUE+BROU%22+avocat&sa=X&ved=2ahUKEwiE4PHrnpmVAxWxSEEAHTXtFcsQs6gLegQIFBAB
+              - generic [ref=e101]: Vidéos courtes
+          - listitem [ref=e102]:
+            - link "Maps" [ref=e103] [cursor=pointer]:
+              - /url: https://maps.google.com/maps?sca_esv=7c167de68f00a97c&output=search&q=%22AKPOUE+BROU%22+avocat&source=lnms&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZcx03T_c-sxlWNSQGlFlWDknwWQhu248SP6Defsqge3KAAIlGtex4bApITV-76CXoUCzzmhjM1gjN5ToGW71qRAgjTbmKqAF0Ln-Cx4ijCZygbZDZZmkfcbC7Os5_x9SiDmNbczJR6FjGQTwsHYtL3Cp-0jeHJgVg1Qzg6SeUvgXbU_wUFw&entry=mc&ved=1t:200715&ictx=111
+              - generic [ref=e105]: Maps
+          - listitem [ref=e106]:
+            - button "Plus de filtres" [ref=e107] [cursor=pointer]:
+              - generic "Plus de filtres" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: Plus
+                  - img [ref=e112]
+        - button "Outils" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: Outils
+            - img [ref=e120]
+    - heading "Résultats de recherche" [level=1] [ref=e122]
+    - generic [ref=e128]:
+      - generic [ref=e129]: Looking for results in English?
+      - link [ref=e130] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e132]
+      - link "Change to English" [ref=e134] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Z6ct9n79TfmT9GtAUHGVV8Qn4FE%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3D%2522AKPOUE%2BBROU%2522%2Bavocat&hl=en&sa=X&ved=2ahUKEwiE4PHrnpmVAxWxSEEAHTXtFcsQhoQCKAF6BAgPEAQ
+      - link "Continuer en Français" [ref=e135] [cursor=pointer]:
+        - /url: "#"
+      - link "Paramètres de langue" [ref=e137] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fr-CI&sa=X&ved=2ahUKEwiE4PHrnpmVAxWxSEEAHTXtFcsQiIQCKAN6BAgPEAY#languages
+    - generic [ref=e138]:
+      - generic [ref=e157]:
+        - heading "Raisonnement…" [level=2] [ref=e161]:
+          - generic [ref=e162]: Raisonnement…
+        - progressbar "Génération" [ref=e163]
+      - main [ref=e165]:
+        - generic [ref=e169]:
+          - generic [ref=e172]:
+            - heading "Résultats Web" [level=2] [ref=e173]
+            - generic [ref=e174]:
+              - generic [ref=e177]:
+                - link "Fiche avocat | Barreau CI App Annuaire des avocats | Barreau CI App https://app.ordredesavocats-ci.net › avocat" [ref=e179] [cursor=pointer]:
+                  - /url: https://app.ordredesavocats-ci.net/avocat/093f7fb0-e076-4475-914b-b9704cdb3ef9
+                  - heading "Fiche avocat | Barreau CI App" [level=3] [ref=e180]
+                  - generic [ref=e186]:
+                    - generic [ref=e188]: Annuaire des avocats | Barreau CI App
+                    - generic [ref=e190]: https://app.ordredesavocats-ci.net › avocat
+                - button "À propos de ce résultat" [ref=e191] [cursor=pointer]:
+                  - img [ref=e194]
+              - generic [ref=e198]:
+                - text: Maître
+                - emphasis [ref=e199]: AKPOUE BROU
+                - text: · akpouebrou2017@gmail.com · 07 49 23 78 66 ; Maître AKA LAMARCHE ALINE · alineaka@yahoo.fr · 07 58 47 16 56 ; Maître BILE-AKA JOACHIM.
+          - generic [ref=e203]:
+            - generic [ref=e206]:
+              - link "Prestation de Serment de Cinq Nouveaux Avocats au ... Barreau de Côte d'Ivoire https://web.ordredesavocats.ci › prestation-de-serment-d..." [ref=e208] [cursor=pointer]:
+                - /url: https://web.ordredesavocats.ci/prestation-de-serment-de-cinq-nouveaux-avocats-au-barreau-ivoirien-a-la-cour-dappel-dabidjan/
+                - heading "Prestation de Serment de Cinq Nouveaux Avocats au ..." [level=3] [ref=e209]
+                - generic [ref=e215]:
+                  - generic [ref=e217]: Barreau de Côte d'Ivoire
+                  - generic [ref=e219]: https://web.ordredesavocats.ci › prestation-de-serment-d...
+              - button "À propos de ce résultat" [ref=e220] [cursor=pointer]:
+                - img [ref=e223]
+            - generic [ref=e226]:
+              - generic [ref=e227]: 27 juin 2025 —
+              - generic [ref=e228]:
+                - text: Le Conseil de l'Ordre adresse ses vives félicitations à Me TRAORE Mariam, Me
+                - emphasis [ref=e229]: AKPOUE Brou
+                - text: ", Me FOFANA Nibessee, Me AKA-LAMARCHE Aline Dorothée et ..."
+          - generic [ref=e233]:
+            - generic [ref=e236]:
+              - 'link "Prof Akpoue Brou : De la salle de classe à la salle d'' ... afrik soir https://afriksoir.net › Actualité" [ref=e238] [cursor=pointer]':
+                - /url: https://afriksoir.net/prof-akpoue-brou-quand-enseignant-chercheur-avocat/
+                - 'heading "Prof Akpoue Brou : De la salle de classe à la salle d'' ..." [level=3] [ref=e239]'
+                - generic [ref=e245]:
+                  - generic [ref=e247]: afrik soir
+                  - generic [ref=e249]: https://afriksoir.net › Actualité
+              - button "À propos de ce résultat" [ref=e250] [cursor=pointer]:
+                - img [ref=e253]
+            - generic [ref=e256]:
+              - generic [ref=e257]: 23 juil. 2025 —
+              - generic [ref=e258]:
+                - text: Professeur
+                - emphasis [ref=e259]: Akpoue Brou
+                - text: ", enseignant-chercheur respecté dans le milieu universitaire, a franchi une nouvelle étape dans sa carrière en accédant à ..."
+          - generic [ref=e264]:
+            - heading "Autres questions" [level=2] [ref=e266]
+            - generic [ref=e267]:
+              - button "Qui est le meilleur avocat en Côte d'Ivoire ?" [ref=e273] [cursor=pointer]:
+                - generic [ref=e275]: Qui est le meilleur avocat en Côte d'Ivoire ?
+                - img [ref=e278]
+              - button "Quel est le salaire d'un avocat en FCFA ?" [ref=e287] [cursor=pointer]:
+                - generic [ref=e289]: Quel est le salaire d'un avocat en FCFA ?
+                - img [ref=e292]
+              - button "Quel est le prix moyen d'une consultation chez un avocat ?" [ref=e301] [cursor=pointer]:
+                - generic [ref=e303]: Quel est le prix moyen d'une consultation chez un avocat ?
+                - img [ref=e306]
+              - button "Quels sont les 3 types d'avocats ?" [ref=e315] [cursor=pointer]:
+                - generic [ref=e317]: Quels sont les 3 types d'avocats ?
+                - img [ref=e320]
+          - generic [ref=e325]:
+            - heading "Résultats Web" [level=2] [ref=e326]
+            - generic [ref=e327]:
+              - generic [ref=e330]:
+                - link "Annuaire des avocats | Barreau CI App Annuaire des avocats | Barreau CI App https://app.ordredesavocats-ci.net" [ref=e332] [cursor=pointer]:
+                  - /url: https://app.ordredesavocats-ci.net/
+                  - heading "Annuaire des avocats | Barreau CI App" [level=3] [ref=e333]
+                  - generic [ref=e339]:
+                    - generic [ref=e341]: Annuaire des avocats | Barreau CI App
+                    - generic [ref=e343]: https://app.ordredesavocats-ci.net
+                - button "À propos de ce résultat" [ref=e344] [cursor=pointer]:
+                  - img [ref=e347]
+              - generic [ref=e351]:
+                - text: Maître
+                - emphasis [ref=e352]: AKPOUE BROU
+                - text: "· SCPA BILE-AKA, BRIZOUA et Associés · akpouebrou2017@gmail.com · 07 49 23 78 66. #. Maître EZZEDINE SAMAR · CABINET KASSI Abel · Néant."
+          - generic [ref=e356]:
+            - heading "Images" [level=2] [ref=e360]
+            - generic [ref=e364]:
+              - generic [ref=e368] [cursor=pointer]:
+                - 'link "Prof Akpoue Brou : De la salle de classe à la salle d ... afrik soir"':
+                  - /url: https://afriksoir.net/prof-akpoue-brou-quand-enseignant-chercheur-avocat/
+                - 'button "Prof Akpoue Brou : De la salle de classe à la salle d ..." [ref=e370]':
+                  - 'img "Prof Akpoue Brou : De la salle de classe à la salle d ..." [ref=e372]'
+                - generic [ref=e374]:
+                  - generic [ref=e376]: "Prof Akpoue Brou : De la salle de classe à la salle d ..."
+                  - generic [ref=e377]:
+                    - generic [ref=e384]: afrik soir
+                    - button "À propos de ce résultat" [ref=e387]:
+                      - img [ref=e390]
+              - generic [ref=e395] [cursor=pointer]:
+                - link "Fiche avocat | Barreau CI App Fiche avocat | Barreau CI App":
+                  - /url: https://app.ordredesavocats-ci.net/avocat/093f7fb0-e076-4475-914b-b9704cdb3ef9
+                - button "Fiche avocat | Barreau CI App" [ref=e397]:
+                  - img "Fiche avocat | Barreau CI App" [ref=e399]
+                - generic [ref=e401]:
+                  - generic [ref=e403]: Fiche avocat | Barreau CI App
+                  - generic [ref=e404]:
+                    - generic [ref=e411]: Fiche avocat | Barreau CI App
+                    - button "À propos de ce résultat" [ref=e414]:
+                      - img [ref=e417]
+              - generic [ref=e422] [cursor=pointer]:
+                - link "Prestation de Serment de Cinq Nouveaux Avocats au Barreau ... Barreau de Côte d'Ivoire":
+                  - /url: https://web.ordredesavocats.ci/prestation-de-serment-de-cinq-nouveaux-avocats-au-barreau-ivoirien-a-la-cour-dappel-dabidjan/
+                - button "Prestation de Serment de Cinq Nouveaux Avocats au Barreau ..." [ref=e424]:
+                  - img "Prestation de Serment de Cinq Nouveaux Avocats au Barreau ..." [ref=e426]
+                - generic [ref=e428]:
+                  - generic [ref=e430]: Prestation de Serment de Cinq Nouveaux Avocats au Barreau ...
+                  - generic [ref=e431]:
+                    - generic [ref=e438]: Barreau de Côte d'Ivoire
+                    - button "À propos de ce résultat" [ref=e441]:
+                      - img [ref=e444]
+            - button "Afficher plus d'images" [ref=e447] [cursor=pointer]:
+              - separator [ref=e448]
+              - generic [ref=e449]:
+                - generic [ref=e450]: Afficher plus d'images
+                - img [ref=e452]
+          - generic [ref=e456]:
+            - heading "Résultats Web" [level=2] [ref=e457]
+            - generic [ref=e458]:
+              - generic [ref=e461]:
+                - link "(PDF) La protection de la caution illettrée Academia.edu https://www.academia.edu › La_protection_de_la_cauti..." [ref=e463] [cursor=pointer]:
+                  - /url: https://www.academia.edu/65298413/La_protection_de_la_caution_illettr%C3%A9e
+                  - heading "(PDF) La protection de la caution illettrée" [level=3] [ref=e464]
+                  - generic [ref=e470]:
+                    - generic [ref=e472]: Academia.edu
+                    - generic [ref=e474]: https://www.academia.edu › La_protection_de_la_cauti...
+                - button "À propos de ce résultat" [ref=e475] [cursor=pointer]:
+                  - img [ref=e478]
+              - generic [ref=e482]:
+                - text: La protection de la caution illettrée. Profile image of Brou
+                - emphasis [ref=e483]: AKPOUE Brou
+                - text: AKPOUE. 2015, Sciences Juridiques Et Politiques. visibility … description. 22 pages.
+          - generic [ref=e487]:
+            - generic [ref=e490]:
+              - link "Introduction au droit des contrats | PDF | Droit des obligations Scribd https://fr.scribd.com › document › Cours-Droit-Des-Co..." [ref=e492] [cursor=pointer]:
+                - /url: https://fr.scribd.com/document/541910961/Cours-Droit-Des-Contrats-Sciences-Economiques
+                - heading "Introduction au droit des contrats | PDF | Droit des obligations" [level=3] [ref=e493]
+                - generic [ref=e499]:
+                  - generic [ref=e501]: Scribd
+                  - generic [ref=e503]: https://fr.scribd.com › document › Cours-Droit-Des-Co...
+              - button "À propos de ce résultat" [ref=e504] [cursor=pointer]:
+                - img [ref=e507]
+            - generic [ref=e511]:
+              - text: Cours de droit des contrats.
+              - emphasis [ref=e512]: AKPOUE Brou
+              - text: Maitre-assistant à l'UFR Sciences juridique administrative et politique de l'Université Félix HOUPHOUET BOIGNY
+          - generic [ref=e516]:
+            - generic [ref=e519]:
+              - link "UFHB UFR SJAP MASTER I DROIT PRIVÉ T.D. RÉGIMES ... Studocu https://www.studocu.com › ... › Droit civil" [ref=e521] [cursor=pointer]:
+                - /url: https://www.studocu.com/row/document/universite-felix-houphouet-boigny/droit-civil/ufhb-ufr-sjap-master-i-droit-prive-td-regimes-matrimoniaux-fiche-4/138765754
+                - heading "UFHB UFR SJAP MASTER I DROIT PRIVÉ T.D. RÉGIMES ..." [level=3] [ref=e522]
+                - generic [ref=e528]:
+                  - generic [ref=e530]: Studocu
+                  - generic [ref=e532]: https://www.studocu.com › ... › Droit civil
+              - button "À propos de ce résultat" [ref=e533] [cursor=pointer]:
+                - img [ref=e536]
+            - generic [ref=e540]:
+              - text: "Preview text. UFHB UFR SJAP ANNÉE ACADÉMIQUE TRAVAUX DIRIGÉS DE RÉGIMES MATRIMONIAUX Chargé du cours : Pr"
+              - emphasis [ref=e541]: AKPOUÉ BROU
+              - text: "Confection de la fiche : Dr AKA ..."
+            - 'img "Note : 5,0 sur 5 (1) avis d''utilisateurs" [ref=e546]':
+              - text: 5,0
+              - img [ref=e547]
+              - text: (1)
+          - generic [ref=e553]:
+            - generic [ref=e556]:
+              - link "Cabinets des avocats | Barreau CI App Annuaire des avocats | Barreau CI App https://app.ordredesavocats-ci.net › structures" [ref=e558] [cursor=pointer]:
+                - /url: https://app.ordredesavocats-ci.net/structures?page=27
+                - heading "Cabinets des avocats | Barreau CI App" [level=3] [ref=e559]
+                - generic [ref=e565]:
+                  - generic [ref=e567]: Annuaire des avocats | Barreau CI App
+                  - generic [ref=e569]: https://app.ordredesavocats-ci.net › structures
+              - button "À propos de ce résultat" [ref=e570] [cursor=pointer]:
+                - img [ref=e573]
+            - generic [ref=e577]:
+              - text: Rechercher un cabinet · YA DESAILLY GEORGES CAMILLE ·
+              - emphasis [ref=e578]: AKPOUE BROU
+              - text: · AKA LAMARCHE ALINE · BILE-AKA JOACHIM · BRIZOUA-BI MICHEL KIZITO · BERTE Jean-Yves Albert · SOKOLO ...
+          - generic [ref=e582]:
+            - generic [ref=e585]:
+              - link "Post de Tereme Diaby LinkedIn https://fr.linkedin.com › posts › tereme-diaby-59252810..." [ref=e587] [cursor=pointer]:
+                - /url: https://fr.linkedin.com/posts/tereme-diaby-592528104_bilan-du-caf%C3%A9-juridique-par-docteur-christian-activity-7056940319044464640-gRZN
+                - heading "Post de Tereme Diaby" [level=3] [ref=e588]
+                - generic [ref=e594]:
+                  - generic [ref=e596]: LinkedIn
+                  - generic [ref=e598]: https://fr.linkedin.com › posts › tereme-diaby-59252810...
+              - button "À propos de ce résultat" [ref=e599] [cursor=pointer]:
+                - img [ref=e602]
+            - generic [ref=e606]:
+              - text: ...
+              - emphasis [ref=e607]: Akpoué Brou
+              - text: ", Professeur agrégé des facultés de Droit... avec que la visite amicale du Docteure Vanessa Donation, vice-doyen chargé de la pédagogie de l'UFR ..."
+        - generic [ref=e609]:
+          - generic [ref=e614]:
+            - heading "Recherches associées" [level=2] [ref=e616]
+            - generic [ref=e618]:
+              - generic [ref=e619]:
+                - link "Liste des avocats au Barreau d' Abidjan" [ref=e623] [cursor=pointer]:
+                  - /url: /search?sca_esv=7c167de68f00a97c&q=Liste+des+avocats+au+Barreau+d%27+Abidjan&sa=X&ved=2ahUKEwiE4PHrnpmVAxWxSEEAHTXtFcsQ1QJ6BAgkEAE
+                  - generic [ref=e624]:
+                    - generic [ref=e629]: Liste des avocats au Barreau d' Abidjan
+                    - img [ref=e633]
+                - link "Liste des avocats de Côte d'Ivoire pdf" [ref=e638] [cursor=pointer]:
+                  - /url: /search?sca_esv=7c167de68f00a97c&q=Liste+des+avocats+de+C%C3%B4te+d%27Ivoire+pdf&sa=X&ved=2ahUKEwiE4PHrnpmVAxWxSEEAHTXtFcsQ1QJ6BAg-EAE
+                  - generic [ref=e639]:
+                    - generic [ref=e644]: Liste des avocats de Côte d'Ivoire pdf
+                    - img [ref=e648]
+                - link "Meilleur cabinet d'avocat Abidjan" [ref=e653] [cursor=pointer]:
+                  - /url: /search?sca_esv=7c167de68f00a97c&q=Meilleur+cabinet+d%27avocat+Abidjan&sa=X&ved=2ahUKEwiE4PHrnpmVAxWxSEEAHTXtFcsQ1QJ6BAg9EAE
+                  - generic [ref=e654]:
+                    - generic [ref=e659]: Meilleur cabinet d'avocat Abidjan
+                    - img [ref=e663]
+                - link "Le Bâtonnier de lOrdre des avocats de Côte d'Ivoire" [ref=e668] [cursor=pointer]:
+                  - /url: /search?sca_esv=7c167de68f00a97c&q=Le+B%C3%A2tonnier+de+lOrdre+des+avocats+de+C%C3%B4te+d%27Ivoire&sa=X&ved=2ahUKEwiE4PHrnpmVAxWxSEEAHTXtFcsQ1QJ6BAg1EAE
+                  - generic [ref=e669]:
+                    - generic [ref=e674]: Le Bâtonnier de lOrdre des avocats de Côte d'Ivoire
+                    - img [ref=e678]
+              - generic [ref=e680]:
+                - link "Comment avoir un avocat en Côte d'Ivoire" [ref=e684] [cursor=pointer]:
+                  - /url: /search?sca_esv=7c167de68f00a97c&q=Comment+avoir+un+avocat+en+C%C3%B4te+d%27Ivoire&sa=X&ved=2ahUKEwiE4PHrnpmVAxWxSEEAHTXtFcsQ1QJ6BAguEAE
+                  - generic [ref=e685]:
+                    - generic [ref=e690]: Comment avoir un avocat en Côte d'Ivoire
+                    - img [ref=e694]
+                - link "Les avocats de cote d ivoire" [ref=e699] [cursor=pointer]:
+                  - /url: /search?sca_esv=7c167de68f00a97c&q=Les+avocats+de+cote+d+ivoire&sa=X&ved=2ahUKEwiE4PHrnpmVAxWxSEEAHTXtFcsQ1QJ6BAgtEAE
+                  - generic [ref=e700]:
+                    - generic [ref=e705]: Les avocats de cote d ivoire
+                    - img [ref=e709]
+                - link "Avocat droit de la famille Abidjan" [ref=e714] [cursor=pointer]:
+                  - /url: /search?sca_esv=7c167de68f00a97c&q=Avocat+droit+de+la+famille+Abidjan&sa=X&ved=2ahUKEwiE4PHrnpmVAxWxSEEAHTXtFcsQ1QJ6BAgsEAE
+                  - generic [ref=e715]:
+                    - generic [ref=e720]: Avocat droit de la famille Abidjan
+                    - img [ref=e724]
+                - link "Ordre des avocats contact" [ref=e729] [cursor=pointer]:
+                  - /url: /search?sca_esv=7c167de68f00a97c&q=Ordre+des+avocats+contact&sa=X&ved=2ahUKEwiE4PHrnpmVAxWxSEEAHTXtFcsQ1QJ6BAglEAE
+                  - generic [ref=e730]:
+                    - generic [ref=e735]: Ordre des avocats contact
+                    - img [ref=e739]
+          - navigation [ref=e741]:
+            - heading "Navigation par pages" [level=1] [ref=e742]
+            - text: "1"
+            - link "Page 2" [ref=e745] [cursor=pointer]:
+              - /url: /search?q=%22AKPOUE+BROU%22+avocat&sca_esv=7c167de68f00a97c&ei=zVI4asTFL7GRhbIPtdrX2Aw&start=10&sa=N&sstk=AU9db-CDDPXgLyLjHEt0C4Zj8f8XwxG9bx3TZ-NnFGwPZjsNf3PlWC7D9QVxPQLT6RIIxzqvAkxb_yhkuG8TGZ9Gc5REjR-zD4vkSA&ved=2ahUKEwiE4PHrnpmVAxWxSEEAHTXtFcsQ8tMDegQIQxAE
+              - text: "2"
+            - link "Page 3" [ref=e747] [cursor=pointer]:
+              - /url: /search?q=%22AKPOUE+BROU%22+avocat&sca_esv=7c167de68f00a97c&ei=zVI4asTFL7GRhbIPtdrX2Aw&start=20&sa=N&sstk=AU9db-CDDPXgLyLjHEt0C4Zj8f8XwxG9bx3TZ-NnFGwPZjsNf3PlWC7D9QVxPQLT6RIIxzqvAkxb_yhkuG8TGZ9Gc5REjR-zD4vkSA&ved=2ahUKEwiE4PHrnpmVAxWxSEEAHTXtFcsQ8tMDegQIQxAG
+              - text: "3"
+            - link "Page 4" [ref=e749] [cursor=pointer]:
+              - /url: /search?q=%22AKPOUE+BROU%22+avocat&sca_esv=7c167de68f00a97c&ei=zVI4asTFL7GRhbIPtdrX2Aw&start=30&sa=N&sstk=AU9db-CDDPXgLyLjHEt0C4Zj8f8XwxG9bx3TZ-NnFGwPZjsNf3PlWC7D9QVxPQLT6RIIxzqvAkxb_yhkuG8TGZ9Gc5REjR-zD4vkSA&ved=2ahUKEwiE4PHrnpmVAxWxSEEAHTXtFcsQ8tMDegQIQxAI
+              - text: "4"
+            - heading "Suivant" [level=2] [ref=e751]:
+              - link "Suivant" [ref=e752] [cursor=pointer]:
+                - /url: /search?q=%22AKPOUE+BROU%22+avocat&sca_esv=7c167de68f00a97c&ei=zVI4asTFL7GRhbIPtdrX2Aw&start=10&sa=N&sstk=AU9db-CDDPXgLyLjHEt0C4Zj8f8XwxG9bx3TZ-NnFGwPZjsNf3PlWC7D9QVxPQLT6RIIxzqvAkxb_yhkuG8TGZ9Gc5REjR-zD4vkSA&ved=2ahUKEwiE4PHrnpmVAxWxSEEAHTXtFcsQ8NMDegQIQxAK
+                - generic [ref=e754]: Suivant
+        - navigation
+    - contentinfo [ref=e755]:
+      - heading "Liens de pied de page" [level=1] [ref=e756]
+      - generic [ref=e760]:
+        - generic [ref=e762]:
+          - text: Côte d’Ivoire
+          - generic [ref=e764]:
+            - button "Angré, Abidjan - D'après votre historique d'activité" [ref=e766] [cursor=pointer]:
+              - generic [ref=e767]: Angré, Abidjan
+              - generic [ref=e769]:
+                - text: "-"
+                - generic [ref=e770]: D'après votre historique d'activité
+            - text: "-"
+            - button "Mettre à jour ma position" [ref=e772] [cursor=pointer]: Mettre à jour ma position
+        - generic [ref=e775]:
+          - link "Aide" [ref=e776] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fr-CI&fg=1
+          - link "Envoyer des commentaires" [ref=e777] [cursor=pointer]:
+            - /url: "#"
+          - link "Confidentialité" [ref=e778] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fr-CI&fg=1
+          - link "Conditions" [ref=e779] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fr-CI&fg=1

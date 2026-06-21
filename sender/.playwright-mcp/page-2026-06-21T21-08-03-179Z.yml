@@ -1,0 +1,284 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Passer directement au contenu principal" [ref=e2] [cursor=pointer]
+      - link "Aide sur l'accessibilité" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fr-CI
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e12]:
+        - link "Accéder à la page d'accueil de Google" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fr&ictx=0&sa=X&ved=0ahUKEwjns8venpmVAxWtdUEAHSOnFLIQpYkNCAw
+          - img "Accéder à la page d'accueil de Google" [ref=e14]
+        - generic [ref=e15]:
+          - combobox "Rech." [ref=e18]: "\"KONE TCHANFOLO\" \"KONE TCHANFOLO\""
+          - generic [ref=e19]:
+            - button "Effacer" [ref=e21] [cursor=pointer]:
+              - img [ref=e23]
+            - generic [ref=e26]:
+              - button "Utiliser la recherche vocale" [ref=e27] [cursor=pointer]:
+                - img [ref=e28]
+              - button "Rechercher par image" [ref=e30] [cursor=pointer]:
+                - img [ref=e31]
+        - button "Rechercher" [ref=e33] [cursor=pointer]:
+          - img [ref=e36]
+    - generic [ref=e38]:
+      - button "Paramètres" [ref=e40] [cursor=pointer]:
+        - img [ref=e43]
+      - button "Partager" [ref=e46] [cursor=pointer]:
+        - img [ref=e50]
+      - generic [ref=e52]:
+        - button "Applications Google" [ref=e54] [cursor=pointer]:
+          - img [ref=e55]
+        - link "Connexion" [ref=e59] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fr&passive=true&continue=https://www.google.com/search%3Fq%3D%2522KONE%2BTCHANFOLO%2522&ec=futura_srp_og_si_72236_p
+  - generic [ref=e61]:
+    - navigation [ref=e67]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "Mode IA" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=%22KONE+TCHANFOLO%22&sca_esv=7c167de68f00a97c&udm=50&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc7ZL_t3iAe0lB1D4hb_Ohp7Hkn8yWBpuZ8SrFmWun9dgt6wVBOJJ35nHSM_grAa1uDY6m3AuDoqui4U9m6KPrSClVNYErFT_ZLwgL-XAK_frNHiPTQ3FxTn5tIKxqmCOF0YTaVHm-Ke4HdwS5gpoo4JhGbvMCsvP129ocnFeIl76flBxVA&aep=1&ntc=1&sa=X&ved=2ahUKEwjns8venpmVAxWtdUEAHSOnFLIQ2J8OegQIExAD
+              - generic [ref=e81]: Mode IA
+          - listitem [ref=e82]:
+            - link "Tous" [disabled] [ref=e83]:
+              - generic [ref=e85]: Tous
+          - listitem [ref=e86]:
+            - link "Images" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=7c167de68f00a97c&udm=2&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc7ZL_t3iAe0lB1D4hb_Ohp7Hkn8yWBpuZ8SrFmWun9dgt6wVBOJJ35nHSM_grAa1uDY6m3AuDoqui4U9m6KPrSClVNYErFT_ZLwgL-XAK_frNHiPTQ3FxTn5tIKxqmCOF0YTaVHm-Ke4HdwS5gpoo4JhGbvMCsvP129ocnFeIl76flBxVA&q=%22KONE+TCHANFOLO%22&sa=X&ved=2ahUKEwjns8venpmVAxWtdUEAHSOnFLIQtKgLegQIGRAB
+              - generic [ref=e89]: Images
+          - listitem [ref=e90]:
+            - link "Vidéos" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=7c167de68f00a97c&udm=7&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc7ZL_t3iAe0lB1D4hb_Ohp7Hkn8yWBpuZ8SrFmWun9dgt6wVBOJJ35nHSM_grAa1uDY6m3AuDoqui4U9m6KPrSClVNYErFT_ZLwgL-XAK_frNHiPTQ3FxTn5tIKxqmCOF0YTaVHm-Ke4HdwS5gpoo4JhGbvMCsvP129ocnFeIl76flBxVA&q=%22KONE+TCHANFOLO%22&sa=X&ved=2ahUKEwjns8venpmVAxWtdUEAHSOnFLIQtKgLegQIGBAB
+              - generic [ref=e93]: Vidéos
+          - listitem [ref=e94]:
+            - link "Actualités" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=7c167de68f00a97c&q=%22KONE+TCHANFOLO%22&tbm=nws&source=lnms&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc7ZL_t3iAe0lB1D4hb_Ohp7Hkn8yWBpuZ8SrFmWun9dgt6wVBOJJ35nHSM_grAa1uDY6m3AuDoqui4U9m6KPrSClVNYErFT_ZLwgL-XAK_frNHiPTQ3FxTn5tIKxqmCOF0YTaVHm-Ke4HdwS5gpoo4JhGbvMCsvP129ocnFeIl76flBxVA&sa=X&ved=2ahUKEwjns8venpmVAxWtdUEAHSOnFLIQ0pQJegQIFxAB
+              - generic [ref=e97]: Actualités
+          - listitem [ref=e98]:
+            - link "Maps" [ref=e99] [cursor=pointer]:
+              - /url: https://maps.google.com/maps?sca_esv=7c167de68f00a97c&output=search&q=%22KONE+TCHANFOLO%22&source=lnms&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc7ZL_t3iAe0lB1D4hb_Ohp7Hkn8yWBpuZ8SrFmWun9dgt6wVBOJJ35nHSM_grAa1uDY6m3AuDoqui4U9m6KPrSClVNYErFT_ZLwgL-XAK_frNHiPTQ3FxTn5tIKxqmCOF0YTaVHm-Ke4HdwS5gpoo4JhGbvMCsvP129ocnFeIl76flBxVA&entry=mc&ved=1t:200715&ictx=111
+              - generic [ref=e101]: Maps
+          - listitem [ref=e102]:
+            - link "Vidéos courtes" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=7c167de68f00a97c&udm=39&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc7ZL_t3iAe0lB1D4hb_Ohp7Hkn8yWBpuZ8SrFmWun9dgt6wVBOJJ35nHSM_grAa1uDY6m3AuDoqui4U9m6KPrSClVNYErFT_ZLwgL-XAK_frNHiPTQ3FxTn5tIKxqmCOF0YTaVHm-Ke4HdwS5gpoo4JhGbvMCsvP129ocnFeIl76flBxVA&q=%22KONE+TCHANFOLO%22&sa=X&ved=2ahUKEwjns8venpmVAxWtdUEAHSOnFLIQs6gLegQIFRAB
+              - generic [ref=e105]: Vidéos courtes
+          - listitem [ref=e106]:
+            - button "Plus de filtres" [ref=e107] [cursor=pointer]:
+              - generic "Plus de filtres" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: Plus
+                  - img [ref=e112]
+        - button "Outils" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: Outils
+            - img [ref=e120]
+    - heading "Résultats de recherche" [level=1] [ref=e122]
+    - generic [ref=e128]:
+      - generic [ref=e129]: Looking for results in English?
+      - link [ref=e130] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e132]
+      - link "Change to English" [ref=e134] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Z6ct9n79TfmT9GtAUHGVV8Qn4FE%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3D%2522KONE%2BTCHANFOLO%2522&hl=en&sa=X&ved=2ahUKEwjns8venpmVAxWtdUEAHSOnFLIQhoQCKAF6BAgREAQ
+      - link "Continuer en Français" [ref=e135] [cursor=pointer]:
+        - /url: "#"
+      - link "Paramètres de langue" [ref=e137] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fr-CI&sa=X&ved=2ahUKEwjns8venpmVAxWtdUEAHSOnFLIQiIQCKAN6BAgREAY#languages
+    - generic [ref=e138]:
+      - generic [ref=e157]:
+        - heading "Raisonnement…" [level=2] [ref=e161]:
+          - generic [ref=e162]: Raisonnement…
+        - progressbar "Génération" [ref=e163]
+      - main [ref=e165]:
+        - generic [ref=e169]:
+          - generic [ref=e172]:
+            - heading "Résultats Web" [level=2] [ref=e173]
+            - generic [ref=e174]:
+              - generic [ref=e177]:
+                - link "atsey alleth abe - Fiche avocat | Barreau CI App Annuaire des avocats | Barreau CI App https://app.ordredesavocats-ci.net › avocat" [ref=e179] [cursor=pointer]:
+                  - /url: https://app.ordredesavocats-ci.net/avocat/b56e06c7-9ebe-4417-9f8c-6e5d4b28d6a8
+                  - heading "atsey alleth abe - Fiche avocat | Barreau CI App" [level=3] [ref=e180]
+                  - generic [ref=e186]:
+                    - generic [ref=e188]: Annuaire des avocats | Barreau CI App
+                    - generic [ref=e190]: https://app.ordredesavocats-ci.net › avocat
+                - button "À propos de ce résultat" [ref=e191] [cursor=pointer]:
+                  - img [ref=e194]
+              - generic [ref=e198]:
+                - text: Maître
+                - emphasis [ref=e199]: KONE TCHANFOLO
+                - text: "· tchanf2015@gmail.com · 0758821932. #. Maître BLEDE DOHORA André-Frédéric · secretariat@blede-avocats.com · 05 05 33 33 17. © Copyright ..."
+              - link "\"KONE TCHANFOLO\" sur app.ordredesavocats-ci.net" [ref=e202] [cursor=pointer]:
+                - /url: https://app.ordredesavocats-ci.net/avocat/b56e06c7-9ebe-4417-9f8c-6e5d4b28d6a8
+                - img "\"KONE TCHANFOLO\" sur app.ordredesavocats-ci.net" [ref=e204]
+          - generic [ref=e208]:
+            - generic [ref=e211]:
+              - link "Annuaire des avocats | Barreau CI App Annuaire des avocats | Barreau CI App https://app.ordredesavocats-ci.net › annuaire" [ref=e213] [cursor=pointer]:
+                - /url: https://app.ordredesavocats-ci.net/annuaire?page=2
+                - heading "Annuaire des avocats | Barreau CI App" [level=3] [ref=e214]
+                - generic [ref=e220]:
+                  - generic [ref=e222]: Annuaire des avocats | Barreau CI App
+                  - generic [ref=e224]: https://app.ordredesavocats-ci.net › annuaire
+              - button "À propos de ce résultat" [ref=e225] [cursor=pointer]:
+                - img [ref=e228]
+            - generic [ref=e232]:
+              - text: "Néant · 0748866729. #. Maître"
+              - emphasis [ref=e233]: KONE TCHANFOLO
+              - text: "· CABINET BLEDE DOHORA André-Frédéric · tchanf2015@gmail.com · 0758821932. #. Maître KOUAME DATTE NARCISSE · SCP ..."
+          - generic [ref=e237]:
+            - generic [ref=e240]:
+              - link "Cabinets des avocats | Barreau CI App Annuaire des avocats | Barreau CI App https://app.ordredesavocats-ci.net › structures" [ref=e242] [cursor=pointer]:
+                - /url: https://app.ordredesavocats-ci.net/structures?page=6
+                - heading "Cabinets des avocats | Barreau CI App" [level=3] [ref=e243]
+                - generic [ref=e249]:
+                  - generic [ref=e251]: Annuaire des avocats | Barreau CI App
+                  - generic [ref=e253]: https://app.ordredesavocats-ci.net › structures
+              - button "À propos de ce résultat" [ref=e254] [cursor=pointer]:
+                - img [ref=e257]
+            - generic [ref=e261]:
+              - emphasis [ref=e262]: KONE TCHANFOLO
+              - text: . Voir la fiche · Téléphoner Envoyer e-mail. BLEDE DOHORA André-Frédéric. Voir la fiche · Téléphoner Envoyer e-mail · secretariat@blede-avocats.
+          - generic [ref=e266]:
+            - generic [ref=e269]:
+              - link "Me BLEDE - Fiche avocat | Barreau CI App Annuaire des avocats | Barreau CI App https://app.ordredesavocats-ci.net › avocat" [ref=e271] [cursor=pointer]:
+                - /url: https://app.ordredesavocats-ci.net/avocat/9a99ffd5-af8e-46f7-83e7-e66c49fa2714
+                - heading "Me BLEDE - Fiche avocat | Barreau CI App" [level=3] [ref=e272]
+                - generic [ref=e278]:
+                  - generic [ref=e280]: Annuaire des avocats | Barreau CI App
+                  - generic [ref=e282]: https://app.ordredesavocats-ci.net › avocat
+              - button "À propos de ce résultat" [ref=e283] [cursor=pointer]:
+                - img [ref=e286]
+            - generic [ref=e290]:
+              - text: Maître
+              - emphasis [ref=e291]: KONE TCHANFOLO
+              - text: · tchanf2015@gmail.com · 0758821932. © Copyright Barreau de Côte d'Ivoire 2023 • Designed by HARRELL GROUP. Check layouts. Quick option.
+            - link "\"KONE TCHANFOLO\" sur app.ordredesavocats-ci.net" [ref=e294] [cursor=pointer]:
+              - /url: https://app.ordredesavocats-ci.net/avocat/9a99ffd5-af8e-46f7-83e7-e66c49fa2714
+              - img "\"KONE TCHANFOLO\" sur app.ordredesavocats-ci.net" [ref=e296]
+          - generic [ref=e301]:
+            - heading "Autres questions" [level=2] [ref=e303]
+            - generic [ref=e304]:
+              - button "Qui est le meilleur avocat en Côte d'Ivoire ?" [ref=e310] [cursor=pointer]:
+                - generic [ref=e312]: Qui est le meilleur avocat en Côte d'Ivoire ?
+                - img [ref=e315]
+              - button "Quels sont les 3 types d'avocats ?" [ref=e324] [cursor=pointer]:
+                - generic [ref=e326]: Quels sont les 3 types d'avocats ?
+                - img [ref=e329]
+              - button "Quel est le salaire d'une avocate en Côte d'Ivoire ?" [ref=e338] [cursor=pointer]:
+                - generic [ref=e340]: Quel est le salaire d'une avocate en Côte d'Ivoire ?
+                - img [ref=e343]
+              - button "Combien coûte un avocat à la Cour de cassation ?" [ref=e352] [cursor=pointer]:
+                - generic [ref=e354]: Combien coûte un avocat à la Cour de cassation ?
+                - img [ref=e357]
+          - generic [ref=e362]:
+            - heading "Résultats Web" [level=2] [ref=e363]
+            - generic [ref=e364]:
+              - generic [ref=e367]:
+                - link "Association des Jeunes Avocats de Côte d'Ivoire • AJA-CI LinkedIn · Association des Jeunes Avocats de Côte d'Ivoire • AJA-CI Plus de 150 réactions · il y a 1 an" [ref=e369] [cursor=pointer]:
+                  - /url: https://fr.linkedin.com/posts/association-des-jeunes-avocats-de-cote-d-ivoire-aja-ci_ce-vendredi-27-d%C3%A9cembre-2024-la-cour-dappel-activity-7279843548038934530-Pzwc
+                  - heading "Association des Jeunes Avocats de Côte d'Ivoire • AJA-CI" [level=3] [ref=e370]
+                  - generic [ref=e376]:
+                    - generic [ref=e378]: LinkedIn · Association des Jeunes Avocats de Côte d'Ivoire • AJA-CI
+                    - generic [ref=e380]: Plus de 150 réactions · il y a 1 an
+                - button "À propos de ce résultat" [ref=e381] [cursor=pointer]:
+                  - img [ref=e384]
+              - generic [ref=e388]:
+                - text: ...
+                - emphasis [ref=e389]: KONE Tchanfolo
+                - text: Me KOUAME Datté Narcisse Me N'GUESSAN Ulrich Elvis M. Me N'ZIAN Kouabenan Fabien Me OUATTARA Bassory Me OULAI Hermance Me ...
+          - generic [ref=e393]:
+            - generic [ref=e396]:
+              - link "307397 BAH LYDIE ESTELLE 307398 NDIAYE CHEIKH ... finances.gouv.ci https://finances.gouv.ci › publications" [ref=e398] [cursor=pointer]:
+                - /url: https://finances.gouv.ci/publications?download=593:liste-1-des-abonnes-au-tarif-social-sodeci-9&start=60
+                - heading "307397 BAH LYDIE ESTELLE 307398 NDIAYE CHEIKH ..." [level=3] [ref=e399]
+                - generic [ref=e405]:
+                  - generic [ref=e407]: finances.gouv.ci
+                  - generic [ref=e409]: https://finances.gouv.ci › publications
+              - generic [ref=e410]:
+                - generic:
+                  - generic: PDF
+              - button "À propos de ce résultat" [ref=e411] [cursor=pointer]:
+                - img [ref=e414]
+            - generic [ref=e418]:
+              - text: ...
+              - emphasis [ref=e419]: KONE TCHANFOLO
+              - text: . 320480. OULE ZRANKOUAPIEU EMMANU. 320481. LADJI WEDJI ALPHONSE. 320482. AKEY EDEM GAUTIER. 320483. KOUASSI N'GUESSAN LUCIEN. 320484. KOFFI ...
+        - generic [ref=e421]:
+          - generic [ref=e426]:
+            - heading "Recherches associées" [level=2] [ref=e428]
+            - generic [ref=e430]:
+              - generic [ref=e431]:
+                - link "Cabinet dohora blede" [ref=e435] [cursor=pointer]:
+                  - /url: /search?sca_esv=7c167de68f00a97c&q=Cabinet+dohora+blede&sa=X&ved=2ahUKEwjns8venpmVAxWtdUEAHSOnFLIQ1QJ6BAgsEAE
+                  - generic [ref=e436]:
+                    - generic [ref=e441]: Cabinet dohora blede
+                    - img [ref=e445]
+                - link "Liste des avocats au Barreau d' Abidjan" [ref=e450] [cursor=pointer]:
+                  - /url: /search?sca_esv=7c167de68f00a97c&q=Liste+des+avocats+au+Barreau+d%27+Abidjan&sa=X&ved=2ahUKEwjns8venpmVAxWtdUEAHSOnFLIQ1QJ6BAgxEAE
+                  - generic [ref=e451]:
+                    - generic [ref=e456]: Liste des avocats au Barreau d' Abidjan
+                    - img [ref=e460]
+                - link "Barreau de lOrdre des avocats" [ref=e465] [cursor=pointer]:
+                  - /url: /search?sca_esv=7c167de68f00a97c&q=Barreau+de+lOrdre+des+avocats&sa=X&ved=2ahUKEwjns8venpmVAxWtdUEAHSOnFLIQ1QJ6BAgyEAE
+                  - generic [ref=e466]:
+                    - generic [ref=e471]: Barreau de lOrdre des avocats
+                    - img [ref=e475]
+                - link "Liste des cabinets juridiques en Côte d'Ivoire pdf" [ref=e480] [cursor=pointer]:
+                  - /url: /search?sca_esv=7c167de68f00a97c&q=Liste+des+cabinets+juridiques+en+C%C3%B4te+d%27Ivoire+pdf&sa=X&ved=2ahUKEwjns8venpmVAxWtdUEAHSOnFLIQ1QJ6BAgwEAE
+                  - generic [ref=e481]:
+                    - generic [ref=e486]: Liste des cabinets juridiques en Côte d'Ivoire pdf
+                    - img [ref=e490]
+              - generic [ref=e492]:
+                - link "Liste des batonniers de cote d ivoire" [ref=e496] [cursor=pointer]:
+                  - /url: /search?sca_esv=7c167de68f00a97c&q=Liste+des+batonniers+de+cote+d+ivoire&sa=X&ved=2ahUKEwjns8venpmVAxWtdUEAHSOnFLIQ1QJ6BAgvEAE
+                  - generic [ref=e497]:
+                    - generic [ref=e502]: Liste des batonniers de cote d ivoire
+                    - img [ref=e506]
+                - link "Declaration du barreau de cote d ivoire" [ref=e511] [cursor=pointer]:
+                  - /url: /search?sca_esv=7c167de68f00a97c&q=Declaration+du+barreau+de+cote+d+ivoire&sa=X&ved=2ahUKEwjns8venpmVAxWtdUEAHSOnFLIQ1QJ6BAgrEAE
+                  - generic [ref=e512]:
+                    - generic [ref=e517]: Declaration du barreau de cote d ivoire
+                    - img [ref=e521]
+                - link "Le Bâtonnier de lOrdre des avocats de Côte d'Ivoire" [ref=e526] [cursor=pointer]:
+                  - /url: /search?sca_esv=7c167de68f00a97c&q=Le+B%C3%A2tonnier+de+lOrdre+des+avocats+de+C%C3%B4te+d%27Ivoire&sa=X&ved=2ahUKEwjns8venpmVAxWtdUEAHSOnFLIQ1QJ6BAguEAE
+                  - generic [ref=e527]:
+                    - generic [ref=e532]: Le Bâtonnier de lOrdre des avocats de Côte d'Ivoire
+                    - img [ref=e536]
+                - link "Ecole d'Avocat en Côte d'Ivoire" [ref=e541] [cursor=pointer]:
+                  - /url: /search?sca_esv=7c167de68f00a97c&q=Ecole+d%27Avocat+en+C%C3%B4te+d%27Ivoire&sa=X&ved=2ahUKEwjns8venpmVAxWtdUEAHSOnFLIQ1QJ6BAgtEAE
+                  - generic [ref=e542]:
+                    - generic [ref=e547]: Ecole d'Avocat en Côte d'Ivoire
+                    - img [ref=e551]
+          - generic [ref=e553]:
+            - heading "Remarques sur les résultats filtrés" [level=2] [ref=e554]
+            - paragraph [ref=e556]:
+              - generic [ref=e557]:
+                - text: Afin d'afficher les résultats les plus pertinents, nous avons omis quelques entrées qui sont très similaires aux 6 entrées actuelles.
+                - text: Si vous le souhaitez, vous pouvez
+                - link "relancer la recherche pour inclure les résultats omis" [ref=e558] [cursor=pointer]:
+                  - /url: /search?q=%22KONE+TCHANFOLO%22&sca_esv=7c167de68f00a97c&filter=0
+                - text: .
+          - navigation
+        - navigation
+    - contentinfo [ref=e559]:
+      - heading "Liens de pied de page" [level=1] [ref=e560]
+      - generic [ref=e564]:
+        - generic [ref=e566]:
+          - text: Côte d’Ivoire
+          - generic [ref=e568]:
+            - button "Angré, Abidjan - D'après votre adresse IP" [ref=e570] [cursor=pointer]:
+              - generic [ref=e571]: Angré, Abidjan
+              - generic [ref=e573]:
+                - text: "-"
+                - generic [ref=e574]: D'après votre adresse IP
+            - text: "-"
+            - button "Mettre à jour ma position" [ref=e576] [cursor=pointer]: Mettre à jour ma position
+        - generic [ref=e579]:
+          - link "Aide" [ref=e580] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fr-CI&fg=1
+          - link "Envoyer des commentaires" [ref=e581] [cursor=pointer]:
+            - /url: "#"
+          - link "Confidentialité" [ref=e582] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fr-CI&fg=1
+          - link "Conditions" [ref=e583] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fr-CI&fg=1

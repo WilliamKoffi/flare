@@ -1,0 +1,415 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Passer directement au contenu principal" [ref=e2] [cursor=pointer]
+      - link "Aide sur l'accessibilité" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fr-CI
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e12]:
+        - link "Accéder à la page d'accueil de Google" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fr&ictx=0&sa=X&ved=0ahUKEwiA5OrWnpmVAxVkRkEAHY56JbEQpYkNCAw
+          - img "Accéder à la page d'accueil de Google" [ref=e14]
+        - generic [ref=e15]:
+          - combobox "Rech." [ref=e18]: "\"ANELONE YAMNI\" \"ANELONE YAMNI\""
+          - generic [ref=e19]:
+            - button "Effacer" [ref=e21] [cursor=pointer]:
+              - img [ref=e23]
+            - generic [ref=e26]:
+              - button "Utiliser la recherche vocale" [ref=e27] [cursor=pointer]:
+                - img [ref=e28]
+              - button "Rechercher par image" [ref=e30] [cursor=pointer]:
+                - img [ref=e31]
+        - button "Rechercher" [ref=e33] [cursor=pointer]:
+          - img [ref=e36]
+    - generic [ref=e38]:
+      - button "Paramètres" [ref=e40] [cursor=pointer]:
+        - img [ref=e43]
+      - button "Partager" [ref=e46] [cursor=pointer]:
+        - img [ref=e50]
+      - generic [ref=e52]:
+        - button "Applications Google" [ref=e54] [cursor=pointer]:
+          - img [ref=e55]
+        - link "Connexion" [ref=e59] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fr&passive=true&continue=https://www.google.com/search%3Fq%3D%2522ANELONE%2BYAMNI%2522%26sei%3DoVI4aqjEFNGxhbIPs9vIuAE&ec=futura_srp_og_si_72236_p
+  - generic [ref=e61]:
+    - navigation [ref=e67]:
+      - generic [ref=e73]:
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - link "Mode IA" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=%22ANELONE+YAMNI%22&sca_esv=7c167de68f00a97c&udm=50&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc7ZL_t3iAe0lB1D4hb_Ohp7Hkn8yWBpuZ8SrFmWun9dg8NU65Njndt8IIZVQ0EZEKKBfDx7anI2hY7ytMUAoA44pUVch9Ufs4RW9HieBPxoauWnFGyEIWMuTqSpv55epMdh1XANlC2FQbGWtk83c_9kBHJTlnXhgOGl7Ah99cFVMG9Vy1A&aep=1&ntc=1&sa=X&ved=2ahUKEwiA5OrWnpmVAxVkRkEAHY56JbEQ2J8OegQIEhAD
+              - generic [ref=e81]: Mode IA
+          - listitem [ref=e82]:
+            - link "Tous" [disabled] [ref=e83]:
+              - generic [ref=e85]: Tous
+          - listitem [ref=e86]:
+            - link "Images" [ref=e87] [cursor=pointer]:
+              - /url: /search?sca_esv=7c167de68f00a97c&udm=2&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc7ZL_t3iAe0lB1D4hb_Ohp7Hkn8yWBpuZ8SrFmWun9dg8NU65Njndt8IIZVQ0EZEKKBfDx7anI2hY7ytMUAoA44pUVch9Ufs4RW9HieBPxoauWnFGyEIWMuTqSpv55epMdh1XANlC2FQbGWtk83c_9kBHJTlnXhgOGl7Ah99cFVMG9Vy1A&q=%22ANELONE+YAMNI%22&sa=X&ved=2ahUKEwiA5OrWnpmVAxVkRkEAHY56JbEQtKgLegQIGBAB
+              - generic [ref=e89]: Images
+          - listitem [ref=e90]:
+            - link "Vidéos" [ref=e91] [cursor=pointer]:
+              - /url: /search?sca_esv=7c167de68f00a97c&udm=7&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc7ZL_t3iAe0lB1D4hb_Ohp7Hkn8yWBpuZ8SrFmWun9dg8NU65Njndt8IIZVQ0EZEKKBfDx7anI2hY7ytMUAoA44pUVch9Ufs4RW9HieBPxoauWnFGyEIWMuTqSpv55epMdh1XANlC2FQbGWtk83c_9kBHJTlnXhgOGl7Ah99cFVMG9Vy1A&q=%22ANELONE+YAMNI%22&sa=X&ved=2ahUKEwiA5OrWnpmVAxVkRkEAHY56JbEQtKgLegQIFBAB
+              - generic [ref=e93]: Vidéos
+          - listitem [ref=e94]:
+            - link "Actualités" [ref=e95] [cursor=pointer]:
+              - /url: /search?sca_esv=7c167de68f00a97c&q=%22ANELONE+YAMNI%22&tbm=nws&source=lnms&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc7ZL_t3iAe0lB1D4hb_Ohp7Hkn8yWBpuZ8SrFmWun9dg8NU65Njndt8IIZVQ0EZEKKBfDx7anI2hY7ytMUAoA44pUVch9Ufs4RW9HieBPxoauWnFGyEIWMuTqSpv55epMdh1XANlC2FQbGWtk83c_9kBHJTlnXhgOGl7Ah99cFVMG9Vy1A&sa=X&ved=2ahUKEwiA5OrWnpmVAxVkRkEAHY56JbEQ0pQJegQIFRAB
+              - generic [ref=e97]: Actualités
+          - listitem [ref=e98]:
+            - link "Vidéos courtes" [ref=e99] [cursor=pointer]:
+              - /url: /search?sca_esv=7c167de68f00a97c&udm=39&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc7ZL_t3iAe0lB1D4hb_Ohp7Hkn8yWBpuZ8SrFmWun9dg8NU65Njndt8IIZVQ0EZEKKBfDx7anI2hY7ytMUAoA44pUVch9Ufs4RW9HieBPxoauWnFGyEIWMuTqSpv55epMdh1XANlC2FQbGWtk83c_9kBHJTlnXhgOGl7Ah99cFVMG9Vy1A&q=%22ANELONE+YAMNI%22&sa=X&ved=2ahUKEwiA5OrWnpmVAxVkRkEAHY56JbEQs6gLegQIFhAB
+              - generic [ref=e101]: Vidéos courtes
+          - listitem [ref=e102]:
+            - link "Maps" [ref=e103] [cursor=pointer]:
+              - /url: https://maps.google.com/maps?sca_esv=7c167de68f00a97c&output=search&q=%22ANELONE+YAMNI%22&source=lnms&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc7ZL_t3iAe0lB1D4hb_Ohp7Hkn8yWBpuZ8SrFmWun9dg8NU65Njndt8IIZVQ0EZEKKBfDx7anI2hY7ytMUAoA44pUVch9Ufs4RW9HieBPxoauWnFGyEIWMuTqSpv55epMdh1XANlC2FQbGWtk83c_9kBHJTlnXhgOGl7Ah99cFVMG9Vy1A&entry=mc&ved=1t:200715&ictx=111
+              - generic [ref=e105]: Maps
+          - listitem [ref=e106]:
+            - button "Plus de filtres" [ref=e107] [cursor=pointer]:
+              - generic "Plus de filtres" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: Plus
+                  - img [ref=e112]
+        - button "Outils" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: Outils
+            - img [ref=e120]
+    - heading "Résultats de recherche" [level=1] [ref=e122]
+    - generic [ref=e128]:
+      - generic [ref=e129]: Looking for results in English?
+      - link [ref=e130] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e132]
+      - link "Change to English" [ref=e134] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Z6ct9n79TfmT9GtAUHGVV8Qn4FE%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3D%2522ANELONE%2BYAMNI%2522%26sei%3DoVI4aqjEFNGxhbIPs9vIuAE&hl=en&sa=X&ved=2ahUKEwiA5OrWnpmVAxVkRkEAHY56JbEQhoQCKAF6BAgMEAQ
+      - link "Continuer en Français" [ref=e135] [cursor=pointer]:
+        - /url: "#"
+      - link "Paramètres de langue" [ref=e137] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fr-CI&sa=X&ved=2ahUKEwiA5OrWnpmVAxVkRkEAHY56JbEQiIQCKAN6BAgMEAY#languages
+    - main [ref=e139]:
+      - generic [ref=e143]:
+        - generic [ref=e146]:
+          - heading "Résultats Web" [level=2] [ref=e147]
+          - generic [ref=e148]:
+            - generic [ref=e151]:
+              - link "Fiche avocat | Barreau CI App Annuaire des avocats | Barreau CI App https://app.ordredesavocats-ci.net › avocat" [ref=e153] [cursor=pointer]:
+                - /url: https://app.ordredesavocats-ci.net/avocat/498492ce-d815-4561-a96e-7e7475f7d35d
+                - heading "Fiche avocat | Barreau CI App" [level=3] [ref=e154]
+                - generic [ref=e160]:
+                  - generic [ref=e162]: Annuaire des avocats | Barreau CI App
+                  - generic [ref=e164]: https://app.ordredesavocats-ci.net › avocat
+              - button "À propos de ce résultat" [ref=e165] [cursor=pointer]:
+                - img [ref=e168]
+            - generic [ref=e172]:
+              - text: Maître
+              - emphasis [ref=e173]: ANELONE YAMNI
+              - text: "· yamni.anelone@ikt-avocats.com · 0759164961. #. Maître IMBOUA-NIAVA A. Marie-Madeleine · contact@ikt-avocatsconseils.net · 07 08 73 09 40."
+        - generic [ref=e184]:
+          - generic [ref=e186]:
+            - generic [ref=e188]:
+              - generic [ref=e189]:
+                - img [ref=e190]
+                - heading "Aperçu IA" [level=2] [ref=e192]
+              - generic [ref=e193]:
+                - button "Afficher le lien de corroboration" [ref=e196] [cursor=pointer]
+                - button "À propos de ce résultat" [ref=e201]:
+                  - img [ref=e203]
+            - generic [ref=e226]:
+              - generic [ref=e227]:
+                - strong [ref=e228]: Maître Anelone Yamni
+                - text: est un
+                - mark [ref=e229]: avocat inscrit au Barreau de la Côte d'Ivoire
+                - text: ", exerçant au sein du cabinet"
+                - strong [ref=e230]: SCPA IMBOUA-KOUAO-TELLA & Associés
+                - text: .
+                - generic [ref=e232]:
+                  - link "Annuaire des avocats | Barreau CI App (+ 1) – Afficher les liens associés" [ref=e233] [cursor=pointer]:
+                    - /url: https://app.ordredesavocats-ci.net/avocat/498492ce-d815-4561-a96e-7e7475f7d35d
+                  - button "Annuaire des avocats | Barreau CI App (+ 1) – Afficher les liens associés" [ref=e234] [cursor=pointer]:
+                    - generic [ref=e236]:
+                      - generic [ref=e237]: Annuaire des avocats | Barreau CI App
+                      - generic [ref=e238]: "+1"
+                    - img [ref=e241]
+              - generic [ref=e243]: "Vous pouvez le contacter via les canaux officiels suivants :"
+              - list [ref=e245]:
+                - listitem [ref=e246]:
+                  - generic [ref=e247]:
+                    - strong [ref=e248]: "Email :"
+                    - text: yamni.anelone@ikt-avocats.com
+                - listitem [ref=e249]:
+                  - generic [ref=e250]:
+                    - strong [ref=e251]: "Téléphone :"
+                    - text: +225 07 59 16 49 61
+                  - generic [ref=e253]:
+                    - link "Annuaire des avocats | Barreau CI App – Afficher les liens associés" [ref=e254] [cursor=pointer]:
+                      - /url: https://app.ordredesavocats-ci.net/
+                    - button "Annuaire des avocats | Barreau CI App – Afficher les liens associés" [ref=e255] [cursor=pointer]:
+                      - generic [ref=e258]: Annuaire des avocats | Barreau CI App
+                      - img [ref=e261]
+              - generic [ref=e265]:
+                - text: Souhaitez-vous obtenir de l'aide pour
+                - strong [ref=e266]: préparer une consultation juridique
+                - text: ", ou recherchez-vous des informations sur les"
+                - strong [ref=e267]: domaines d'expertise spécifiques
+                - text: traités par son cabinet ?
+              - list [ref=e271]:
+                - generic [ref=e272]:
+                  - listitem [ref=e273]:
+                    - generic [ref=e274]:
+                      - link [ref=e275] [cursor=pointer]:
+                        - /url: https://app.ordredesavocats-ci.net/avocat/498492ce-d815-4561-a96e-7e7475f7d35d
+                      - generic [ref=e276]:
+                        - generic [ref=e278]:
+                          - generic [ref=e279]: Fiche avocat | Barreau CI App
+                          - generic [ref=e281]: "Les autres membres de SCPA IMBOUA-KOUAO-TELLA & Associés. #. Maître ANELONE YAMNI · yamni.anelone@ikt-avocats.com · 0759164961. #."
+                        - generic [ref=e283]:
+                          - generic [ref=e286]: Annuaire des avocats | Barreau CI App
+                          - button [ref=e290] [cursor=pointer]:
+                            - img [ref=e292]
+                  - listitem [ref=e295]:
+                    - generic [ref=e296]:
+                      - link [ref=e297] [cursor=pointer]:
+                        - /url: https://app.ordredesavocats-ci.net/
+                      - generic [ref=e298]:
+                        - generic [ref=e300]:
+                          - generic [ref=e301]: Annuaire des avocats | Barreau CI App
+                          - generic [ref=e303]: "Maître ANELONE YAMNI · SCPA IMBOUA-KOUAO-TELLA & Associés · yamni.anelone@ikt-avocats.com · 0759164961. #. Maître TRAORE MARIAM · ..."
+                        - generic [ref=e305]:
+                          - generic [ref=e308]: Annuaire des avocats | Barreau CI App
+                          - button [ref=e312] [cursor=pointer]:
+                            - img [ref=e314]
+                - button [ref=e317] [cursor=pointer]:
+                  - img [ref=e319]
+          - button "Afficher plus, Aperçu IA" [ref=e324]:
+            - generic [ref=e326] [cursor=pointer]:
+              - generic [ref=e327]: Afficher plus
+              - img [ref=e329]
+        - generic [ref=e334]:
+          - heading "Résultats Web" [level=2] [ref=e335]
+          - generic [ref=e336]:
+            - generic [ref=e339]:
+              - link "Annuaire des avocats | Barreau CI App Annuaire des avocats | Barreau CI App https://app.ordredesavocats-ci.net" [ref=e341] [cursor=pointer]:
+                - /url: https://app.ordredesavocats-ci.net/
+                - heading "Annuaire des avocats | Barreau CI App" [level=3] [ref=e342]
+                - generic [ref=e348]:
+                  - generic [ref=e350]: Annuaire des avocats | Barreau CI App
+                  - generic [ref=e352]: https://app.ordredesavocats-ci.net
+              - button "À propos de ce résultat" [ref=e353] [cursor=pointer]:
+                - img [ref=e356]
+            - generic [ref=e360]:
+              - text: Maître
+              - emphasis [ref=e361]: ANELONE YAMNI
+              - text: "· SCPA IMBOUA-KOUAO-TELLA & Associés · yamni.anelone@ikt-avocats.com · 0759164961. #. Maître TRAORE MARIAM · SCPA KSK · traoreemariam.01@ ..."
+        - generic [ref=e365]:
+          - heading "Images" [level=2] [ref=e369]
+          - generic [ref=e373]:
+            - generic [ref=e377] [cursor=pointer]:
+              - link "Fiche avocat | Barreau CI App Fiche avocat | Barreau CI App":
+                - /url: https://app.ordredesavocats-ci.net/avocat/498492ce-d815-4561-a96e-7e7475f7d35d
+              - button "Fiche avocat | Barreau CI App" [ref=e379]:
+                - img "Fiche avocat | Barreau CI App" [ref=e381]
+              - generic [ref=e383]:
+                - generic [ref=e385]: Fiche avocat | Barreau CI App
+                - generic [ref=e386]:
+                  - generic [ref=e393]: Fiche avocat | Barreau CI App
+                  - button "À propos de ce résultat" [ref=e396]:
+                    - img [ref=e399]
+            - generic [ref=e404] [cursor=pointer]:
+              - link "Fiche avocat | Barreau CI App Fiche avocat | Barreau CI App":
+                - /url: https://app.ordredesavocats-ci.net/avocat/498492ce-d815-4561-a96e-7e7475f7d35d
+              - button "Fiche avocat | Barreau CI App" [ref=e406]:
+                - img "Fiche avocat | Barreau CI App" [ref=e408]
+              - generic [ref=e410]:
+                - generic [ref=e412]: Fiche avocat | Barreau CI App
+                - generic [ref=e413]:
+                  - generic [ref=e420]: Fiche avocat | Barreau CI App
+                  - button "À propos de ce résultat" [ref=e423]:
+                    - img [ref=e426]
+            - generic [ref=e431] [cursor=pointer]:
+              - link "Fiche avocat | Barreau CI App Fiche avocat | Barreau CI App":
+                - /url: https://app.ordredesavocats-ci.net/avocat/498492ce-d815-4561-a96e-7e7475f7d35d
+              - button "Fiche avocat | Barreau CI App" [ref=e433]:
+                - img "Fiche avocat | Barreau CI App" [ref=e435]
+              - generic [ref=e437]:
+                - generic [ref=e439]: Fiche avocat | Barreau CI App
+                - generic [ref=e440]:
+                  - generic [ref=e447]: Fiche avocat | Barreau CI App
+                  - button "À propos de ce résultat" [ref=e450]:
+                    - img [ref=e453]
+          - button "Afficher plus d'images" [ref=e456] [cursor=pointer]:
+            - separator [ref=e457]
+            - generic [ref=e458]:
+              - generic [ref=e459]: Afficher plus d'images
+              - img [ref=e461]
+        - generic [ref=e467]:
+          - heading "Autres questions" [level=2] [ref=e469]
+          - generic [ref=e470]:
+            - button "Qui sont les avocats du Barreau de Côte d'Ivoire ?" [ref=e476] [cursor=pointer]:
+              - generic [ref=e478]: Qui sont les avocats du Barreau de Côte d'Ivoire ?
+              - img [ref=e481]
+            - button "Qui est Maître Olivia MAURY ?" [ref=e490] [cursor=pointer]:
+              - generic [ref=e492]: Qui est Maître Olivia MAURY ?
+              - img [ref=e495]
+            - button "Qui est Olivier TARTERA ?" [ref=e504] [cursor=pointer]:
+              - generic [ref=e506]: Qui est Olivier TARTERA ?
+              - img [ref=e509]
+            - button "Comment savoir si c'est un bon avocat ?" [ref=e518] [cursor=pointer]:
+              - generic [ref=e520]: Comment savoir si c'est un bon avocat ?
+              - img [ref=e523]
+        - generic [ref=e528]:
+          - heading "Résultats Web" [level=2] [ref=e529]
+          - generic [ref=e530]:
+            - generic [ref=e533]:
+              - 'link "Côte d''Ivoire : Procès d''Ahissi Wadja à Abengourou, quand ... koaci https://www.koaci.com › article › cote-divoire › societe" [ref=e535] [cursor=pointer]':
+                - /url: https://www.koaci.com/index.php/article/2025/05/01/cote-divoire/societe/cote-divoire-proces-dahissi-wadja-a-abengourou-quand-une-lettre-de-denonciation-secoue-la-sous-prefecture-dakoboissue_186535.html
+                - 'heading "Côte d''Ivoire : Procès d''Ahissi Wadja à Abengourou, quand ..." [level=3] [ref=e536]'
+                - generic [ref=e538]:
+                  - img [ref=e543]
+                  - generic [ref=e545]:
+                    - generic [ref=e547]: koaci
+                    - generic [ref=e549]: https://www.koaci.com › article › cote-divoire › societe
+              - button "À propos de ce résultat" [ref=e550] [cursor=pointer]:
+                - img [ref=e553]
+            - generic [ref=e556]:
+              - generic [ref=e557]: 1 mai 2025 —
+              - generic [ref=e558]:
+                - text: La défense, assurée par Me
+                - emphasis [ref=e559]: Anelone Yamni
+                - text: ", avocat a plaidé la bonne foi de son client. Selon lui, Ahissi Wadja n'avait aucune intention de ..."
+        - generic [ref=e563]:
+          - generic [ref=e566]:
+            - link "Association des Jeunes Avocats de Côte d'Ivoire • AJA-CI LinkedIn · Association des Jeunes Avocats de Côte d'Ivoire • AJA-CI Plus de 150 réactions · il y a 1 an" [ref=e568] [cursor=pointer]:
+              - /url: https://fr.linkedin.com/posts/association-des-jeunes-avocats-de-cote-d-ivoire-aja-ci_ce-vendredi-27-d%C3%A9cembre-2024-la-cour-dappel-activity-7279843548038934530-Pzwc
+              - heading "Association des Jeunes Avocats de Côte d'Ivoire • AJA-CI" [level=3] [ref=e569]
+              - generic [ref=e575]:
+                - generic [ref=e577]: LinkedIn · Association des Jeunes Avocats de Côte d'Ivoire • AJA-CI
+                - generic [ref=e579]: Plus de 150 réactions · il y a 1 an
+            - button "À propos de ce résultat" [ref=e580] [cursor=pointer]:
+              - img [ref=e583]
+          - generic [ref=e587]:
+            - text: ...
+            - emphasis [ref=e588]: ANELONE Yamni
+            - text: Me BAH Fouafé Marvis-Cyriaque Me DJEDJE Jean-Louis Blé Me EZZEDINE Samar épouse GNUI Me FREBO Korahi Alain Junior Me GBEGBE ...
+        - generic [ref=e592]:
+          - generic [ref=e595]:
+            - 'link "Côte d''Ivoire: Akoboissué, le président de la mutuelle ... koaci https://www.koaci.com › article › cote-divoire › justice" [ref=e597] [cursor=pointer]':
+              - /url: https://www.koaci.com/article/2025/05/16/cote-divoire/justice/cote-divoire-akoboissue-le-president-de-la-mutuelle-condamne-a-six-mois-de-prison-ferme-pour-denonciation-calomnieuse-envers-la-sous-prefete_186912.html
+              - 'heading "Côte d''Ivoire: Akoboissué, le président de la mutuelle ..." [level=3] [ref=e598]'
+              - generic [ref=e600]:
+                - img [ref=e605]
+                - generic [ref=e607]:
+                  - generic [ref=e609]: koaci
+                  - generic [ref=e611]: https://www.koaci.com › article › cote-divoire › justice
+            - button "À propos de ce résultat" [ref=e612] [cursor=pointer]:
+              - img [ref=e615]
+          - generic [ref=e618]:
+            - generic [ref=e619]: 16 mai 2025 —
+            - generic [ref=e620]:
+              - text: Son avocat, Me
+              - emphasis [ref=e621]: Anelone Yamni
+              - text: ", a déclaré à la sortie du tribunal : « Pas de commentaire à faire, mais nous n'entendons pas faire appel. Nous ..."
+        - generic [ref=e625]:
+          - generic [ref=e628]:
+            - link "Cabinets des avocats | Barreau CI App Annuaire des avocats | Barreau CI App https://app.ordredesavocats-ci.net › structures" [ref=e630] [cursor=pointer]:
+              - /url: https://app.ordredesavocats-ci.net/structures?page=28
+              - heading "Cabinets des avocats | Barreau CI App" [level=3] [ref=e631]
+              - generic [ref=e637]:
+                - generic [ref=e639]: Annuaire des avocats | Barreau CI App
+                - generic [ref=e641]: https://app.ordredesavocats-ci.net › structures
+            - button "À propos de ce résultat" [ref=e642] [cursor=pointer]:
+              - img [ref=e645]
+          - generic [ref=e649]:
+            - emphasis [ref=e650]: ANELONE YAMNI
+            - text: . Voir la fiche · Téléphoner Envoyer e-mail. IMBOUA-NIAVA A. Marie-Madeleine. Voir la fiche · Téléphoner Envoyer e-mail. KOUAO Tahnkwao Hermann.
+        - generic [ref=e654]:
+          - generic [ref=e657]:
+            - link "Auprohada Section UCAO-UUA (@ ... Instagram · auprohada_section_ucaouua Plus de 100 abonnés" [ref=e659] [cursor=pointer]:
+              - /url: https://www.instagram.com/auprohada_section_ucaouua/
+              - heading "Auprohada Section UCAO-UUA (@ ..." [level=3] [ref=e660]
+              - generic [ref=e666]:
+                - generic [ref=e668]: Instagram · auprohada_section_ucaouua
+                - generic [ref=e670]: Plus de 100 abonnés
+            - button "À propos de ce résultat" [ref=e671] [cursor=pointer]:
+              - img [ref=e674]
+          - generic [ref=e678]:
+            - text: ...
+            - emphasis [ref=e679]: 𝖠𝖭𝖤𝖫𝖮𝖭𝖤 𝖸𝖠𝖬𝖭𝖨
+            - text: ", 𝖠𝗏𝗈𝖼𝖺𝗍 #droit #ucaouua. 𝚂𝙴𝙼𝙰𝙸𝙽𝙴 𝙾𝙷𝙰𝙳𝙰 ..."
+      - generic [ref=e681]:
+        - generic [ref=e686]:
+          - heading "Recherches associées" [level=2] [ref=e688]
+          - generic [ref=e690]:
+            - generic [ref=e691]:
+              - link "Liste des batonniers de cote d ivoire" [ref=e695] [cursor=pointer]:
+                - /url: /search?sca_esv=7c167de68f00a97c&q=Liste+des+batonniers+de+cote+d+ivoire&sa=X&ved=2ahUKEwiA5OrWnpmVAxVkRkEAHY56JbEQ1QJ6BAgpEAE
+                - generic [ref=e696]:
+                  - generic [ref=e701]: Liste des batonniers de cote d ivoire
+                  - img [ref=e705]
+              - link "CABINET DOHORA BLEDE" [ref=e710] [cursor=pointer]:
+                - /url: /search?sca_esv=7c167de68f00a97c&q=CABINET+DOHORA+BLEDE&sa=X&ved=2ahUKEwiA5OrWnpmVAxVkRkEAHY56JbEQ1QJ6BAhFEAE
+                - generic [ref=e711]:
+                  - generic [ref=e716]: CABINET DOHORA BLEDE
+                  - img [ref=e720]
+              - link "Maitre BOKOLA" [ref=e725] [cursor=pointer]:
+                - /url: /search?sca_esv=7c167de68f00a97c&q=Maitre+BOKOLA&sa=X&ved=2ahUKEwiA5OrWnpmVAxVkRkEAHY56JbEQ1QJ6BAg7EAE
+                - generic [ref=e726]:
+                  - generic [ref=e731]: Maitre BOKOLA
+                  - img [ref=e735]
+              - link "Avocature profession avocat" [ref=e740] [cursor=pointer]:
+                - /url: /search?sca_esv=7c167de68f00a97c&q=Avocature+profession+avocat&sa=X&ved=2ahUKEwiA5OrWnpmVAxVkRkEAHY56JbEQ1QJ6BAg0EAE
+                - generic [ref=e741]:
+                  - generic [ref=e746]: Avocature profession avocat
+                  - img [ref=e750]
+            - generic [ref=e752]:
+              - link "Maitre MOULARE" [ref=e756] [cursor=pointer]:
+                - /url: /search?sca_esv=7c167de68f00a97c&q=Maitre+MOULARE&sa=X&ved=2ahUKEwiA5OrWnpmVAxVkRkEAHY56JbEQ1QJ6BAgwEAE
+                - generic [ref=e757]:
+                  - generic [ref=e762]: Maitre MOULARE
+                  - img [ref=e766]
+              - link "Maitre cowppli bony" [ref=e771] [cursor=pointer]:
+                - /url: /search?sca_esv=7c167de68f00a97c&q=Maitre+cowppli+bony&sa=X&ved=2ahUKEwiA5OrWnpmVAxVkRkEAHY56JbEQ1QJ6BAgxEAE
+                - generic [ref=e772]:
+                  - generic [ref=e777]: Maitre cowppli bony
+                  - img [ref=e781]
+              - link "SCPA KEBET ET MEITE" [ref=e786] [cursor=pointer]:
+                - /url: /search?sca_esv=7c167de68f00a97c&q=SCPA+KEBET+ET+MEITE&sa=X&ved=2ahUKEwiA5OrWnpmVAxVkRkEAHY56JbEQ1QJ6BAgzEAE
+                - generic [ref=e787]:
+                  - generic [ref=e792]: SCPA KEBET ET MEITE
+                  - img [ref=e796]
+              - link "Cabinet juridique d'avocats et conseil notarial Cocody Côte d'Ivoire" [ref=e801] [cursor=pointer]:
+                - /url: /search?sca_esv=7c167de68f00a97c&q=Cabinet+juridique+d%27avocats+et+conseil+notarial+Cocody+C%C3%B4te+d%27Ivoire&sa=X&ved=2ahUKEwiA5OrWnpmVAxVkRkEAHY56JbEQ1QJ6BAguEAE
+                - generic [ref=e802]:
+                  - generic [ref=e807]: Cabinet juridique d'avocats et conseil notarial Cocody Côte d'Ivoire
+                  - img [ref=e811]
+        - generic [ref=e813]:
+          - heading "Remarques sur les résultats filtrés" [level=2] [ref=e814]
+          - paragraph [ref=e816]:
+            - generic [ref=e817]:
+              - text: Afin d'afficher les résultats les plus pertinents, nous avons omis quelques entrées qui sont très similaires aux 7 entrées actuelles.
+              - text: Si vous le souhaitez, vous pouvez
+              - link "relancer la recherche pour inclure les résultats omis" [ref=e818] [cursor=pointer]:
+                - /url: /search?q=%22ANELONE+YAMNI%22&sca_esv=7c167de68f00a97c&filter=0
+              - text: .
+        - navigation
+      - navigation
+    - contentinfo [ref=e819]:
+      - heading "Liens de pied de page" [level=1] [ref=e820]
+      - generic [ref=e824]:
+        - generic [ref=e826]:
+          - text: Côte d’Ivoire
+          - generic [ref=e828]:
+            - button "Angré, Abidjan - D'après votre adresse IP" [ref=e830] [cursor=pointer]:
+              - generic [ref=e831]: Angré, Abidjan
+              - generic [ref=e833]:
+                - text: "-"
+                - generic [ref=e834]: D'après votre adresse IP
+            - text: "-"
+            - button "Mettre à jour ma position" [ref=e836] [cursor=pointer]: Mettre à jour ma position
+        - generic [ref=e839]:
+          - link "Aide" [ref=e840] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fr-CI&fg=1
+          - link "Envoyer des commentaires" [ref=e841] [cursor=pointer]:
+            - /url: "#"
+          - link "Confidentialité" [ref=e842] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fr-CI&fg=1
+          - link "Conditions" [ref=e843] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fr-CI&fg=1

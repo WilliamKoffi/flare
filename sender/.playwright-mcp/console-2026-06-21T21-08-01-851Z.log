@@ -1,0 +1,7 @@
+[    1256ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=%22KONE+TCHANFOLO%22:55
+[    1256ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=%22KONE+TCHANFOLO%22:55
+[    1863ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=%22KONE+TCHANFOLO%22:55
+[    1863ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=%22KONE+TCHANFOLO%22:55
+[    2539ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=%22KONE+TCHANFOLO%22:55
+[    2539ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=%22KONE+TCHANFOLO%22:55
+[    3209ms] [WARNING] A speculation rule set was inserted into the document but will be ignored. This might happen, for example, if it was previously inserted into another document, or if it was created using the innerHTML setter. @ https://www.google.com/search?q=%22KONE+TCHANFOLO%22:33

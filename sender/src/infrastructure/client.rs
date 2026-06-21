@@ -6,14 +6,14 @@ use google_gmail1::api::Message as GmailMessage;
 use google_gmail1::{hyper, hyper_rustls, Gmail};
 use yup_oauth2::{InstalledFlowAuthenticator, InstalledFlowReturnMethod};
 
-use crate::message::Message;
+use crate::domain::message::Message;
 
-pub struct Mailbox {
+pub struct Client {
     hub: Gmail<hyper_rustls::HttpsConnector<hyper::client::HttpConnector>>,
     from: String,
 }
 
-impl Mailbox {
+impl Client {
     pub async fn authenticate(from: String) -> anyhow::Result<Self> {
         header(&from, "sender")?;
         let secret = yup_oauth2::read_application_secret("storage/credentials.json").await?;
@@ -35,7 +35,7 @@ impl Mailbox {
         Ok(Self { hub, from })
     }
 
-    pub async fn send(&self, message: &Message) -> anyhow::Result<()> {
+    pub async fn transmit(&self, message: &Message) -> anyhow::Result<()> {
         header(message.recipient(), "recipient")?;
         header(message.subject(), "subject")?;
         let subject = format!("=?UTF-8?B?{}?=", STANDARD.encode(message.subject()));
@@ -76,12 +76,5 @@ fn header(value: &str, field: &str) -> anyhow::Result<()> {
 }
 
 #[cfg(test)]
-mod tests {
-    use super::header;
-
-    #[test]
-    fn rejects_header_injection() {
-        assert!(header("person@example.com\r\nBcc: victim@example.com", "recipient").is_err());
-        assert!(header("Safe value", "subject").is_ok());
-    }
-}
+#[path = "tests/client_tests.rs"]
+mod tests;

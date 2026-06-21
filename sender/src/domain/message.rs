@@ -1,3 +1,5 @@
+use crate::infrastructure::client::Client;
+
 pub struct Message {
     recipient: String,
     subject: String,
@@ -11,6 +13,11 @@ impl Message {
             subject,
             body,
         }
+    }
+
+    /// AFFORDANCE: A message can be delivered via a transport client.
+    pub async fn deliver(&self, client: &Client) -> anyhow::Result<()> {
+        client.transmit(self).await
     }
 
     pub fn recipient(&self) -> &str {

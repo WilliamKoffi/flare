@@ -1,0 +1,335 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - img [ref=e7] [cursor=pointer]
+      - generic [ref=e8]:
+        - link [ref=e11] [cursor=pointer]:
+          - /url: https://app.ordredesavocats-ci.net
+        - list [ref=e13]:
+          - listitem [ref=e14]:
+            - link "Annuaire" [ref=e15] [cursor=pointer]:
+              - /url: https://app.ordredesavocats-ci.net/annuaire
+          - listitem [ref=e16]:
+            - link "Cabinets" [ref=e17] [cursor=pointer]:
+              - /url: https://app.ordredesavocats-ci.net/structures
+          - listitem [ref=e18]:
+            - link "Connexion" [ref=e19] [cursor=pointer]:
+              - /url: https://app.ordredesavocats-ci.net/login
+    - generic [ref=e20]:
+      - text:     
+      - generic [ref=e21]:
+        - generic [ref=e25]:
+          - link "" [ref=e26] [cursor=pointer]:
+            - /url: https://app.ordredesavocats-ci.net
+            - generic "Retour à l'annuaire" [ref=e27]: 
+          - heading "Fiche d'avocat" [level=3] [ref=e28]
+        - generic [ref=e29]:
+          - generic [ref=e36]:
+            - generic [ref=e37]:
+              - generic [ref=e39]:
+                - generic [ref=e41]:
+                  - heading " N°Toge" [level=6] [ref=e42]:
+                    - generic [ref=e43]: 
+                    - text: N°Toge
+                  - generic "25/003" [ref=e44]
+                - link " Email akpouebrou2017@gmail.com" [ref=e47] [cursor=pointer]:
+                  - /url: mailto:akpouebrou2017@gmail.com
+                  - heading " Email" [level=6] [ref=e48]:
+                    - generic [ref=e49]: 
+                    - text: Email
+                  - generic [ref=e50]: akpouebrou2017@gmail.com
+              - generic [ref=e52]:
+                - generic [ref=e53]:
+                  - text: Me
+                  - link "AKPOUE" [ref=e54] [cursor=pointer]:
+                    - /url: ""
+                - generic [ref=e55]: BROU
+              - generic [ref=e57]:
+                - link " Téléphone 07 49 23 78 66" [ref=e60] [cursor=pointer]:
+                  - /url: tel:07 49 23 78 66
+                  - heading " Téléphone" [level=6] [ref=e61]:
+                    - generic [ref=e62]: 
+                    - text: Téléphone
+                  - generic [ref=e63]: 07 49 23 78 66
+                - link " Cabinet SCPA BILE-AKA, BRIZOUA et Associés" [ref=e66] [cursor=pointer]:
+                  - /url: https://app.ordredesavocats-ci.net/structures/4adb7f91-7243-43c4-aee2-80547718ce0b
+                  - heading " Cabinet" [level=6] [ref=e67]:
+                    - generic [ref=e68]: 
+                    - text: Cabinet
+                  - generic [ref=e69]: SCPA BILE-AKA, BRIZOUA et Associés
+            - separator [ref=e70]
+            - link " Localisation Cocody, 7 Boulevard des martyrs • 25 BP 945 Abidjan 25" [ref=e75] [cursor=pointer]:
+              - /url: https://maps.google.com/?daddr=5.334099984860041, -4.003938273938906
+              - heading " Localisation" [level=6] [ref=e76]:
+                - generic [ref=e77]: 
+                - text: Localisation
+              - generic [ref=e78]: Cocody, 7 Boulevard des martyrs • 25 BP 945 Abidjan 25
+            - generic [ref=e80]:
+              - button "Marker" [ref=e81] [cursor=pointer]
+              - generic:
+                - generic [ref=e82]:
+                  - button "Zoom in" [ref=e83] [cursor=pointer]:
+                    - generic [ref=e84]: +
+                  - button "Zoom out" [ref=e85] [cursor=pointer]:
+                    - generic [ref=e86]: −
+                - generic [ref=e87]:
+                  - link "Leaflet" [ref=e88] [cursor=pointer]:
+                    - /url: https://leafletjs.com
+                    - img [ref=e89]
+                    - text: Leaflet
+                  - generic [ref=e93]: "|"
+                  - text: ©
+                  - link "OpenStreetMap" [ref=e94] [cursor=pointer]:
+                    - /url: https://www.openstreetmap.org/copyright
+                  - text: contributors | ©
+                  - link "OpenStreetMap" [ref=e95] [cursor=pointer]:
+                    - /url: https://www.openstreetmap.org/copyright
+                  - text: contributors
+          - generic [ref=e96]:
+            - heading "Les autres membres de SCPA BILE-AKA, BRIZOUA et Associés" [level=2] [ref=e97]
+            - generic [ref=e99]:
+              - generic [ref=e101]:
+                - img "#" [ref=e103]
+                - generic [ref=e104]:
+                  - link "Maître YA DESAILLY GEORGES CAMILLE" [ref=e105] [cursor=pointer]:
+                    - /url: https://app.ordredesavocats-ci.net/avocat/093f7fb0-e076-4475-914b-b9704cdb3ef9
+                    - paragraph [ref=e106]: Maître YA DESAILLY GEORGES CAMILLE
+                  - link:
+                    - /url: https://app.ordredesavocats-ci.net/structures/SCPA%20BILE-AKA,%20BRIZOUA%20et%20Associ%C3%A9s
+                  - paragraph:
+                    - link:
+                      - /url: https://app.ordredesavocats-ci.net/structures/SCPA%20BILE-AKA,%20BRIZOUA%20et%20Associ%C3%A9s
+                - generic [ref=e107]:
+                  - link "ya.camille@yahoo.fr" [ref=e108] [cursor=pointer]:
+                    - /url: mailto:ya.camille@yahoo.fr
+                    - paragraph [ref=e109]:
+                      - generic [ref=e110]: ya.camille@yahoo.fr
+                  - link "01 71 13 88 89" [ref=e111] [cursor=pointer]:
+                    - /url: tel:01 71 13 88 89
+                    - generic "01 71 13 88 89" [ref=e112]
+                - generic [ref=e113]:
+                  - link "Plus de détails " [ref=e115] [cursor=pointer]:
+                    - /url: https://app.ordredesavocats-ci.net/avocat/093f7fb0-e076-4475-914b-b9704cdb3ef9
+                    - text: Plus de détails
+                    - generic [ref=e116]: 
+                  - link "Mon cabinet " [ref=e118] [cursor=pointer]:
+                    - /url: https://app.ordredesavocats-ci.net/structures/4adb7f91-7243-43c4-aee2-80547718ce0b
+                    - text: Mon cabinet
+                    - generic [ref=e119]: 
+              - generic [ref=e121]:
+                - img "#" [ref=e123]
+                - generic [ref=e124]:
+                  - link "Maître AKA LAMARCHE ALINE" [ref=e125] [cursor=pointer]:
+                    - /url: https://app.ordredesavocats-ci.net/avocat/6d204f4c-3f49-4775-b55a-54b41c581b95
+                    - paragraph [ref=e126]: Maître AKA LAMARCHE ALINE
+                  - link:
+                    - /url: https://app.ordredesavocats-ci.net/structures/SCPA%20BILE-AKA,%20BRIZOUA%20et%20Associ%C3%A9s
+                  - paragraph:
+                    - link:
+                      - /url: https://app.ordredesavocats-ci.net/structures/SCPA%20BILE-AKA,%20BRIZOUA%20et%20Associ%C3%A9s
+                - generic [ref=e127]:
+                  - link "alineaka@yahoo.fr" [ref=e128] [cursor=pointer]:
+                    - /url: mailto:alineaka@yahoo.fr
+                    - paragraph [ref=e129]:
+                      - generic [ref=e130]: alineaka@yahoo.fr
+                  - link "07 58 47 16 56" [ref=e131] [cursor=pointer]:
+                    - /url: tel:07 58 47 16 56
+                    - generic "07 58 47 16 56" [ref=e132]
+                - generic [ref=e133]:
+                  - link "Plus de détails " [ref=e135] [cursor=pointer]:
+                    - /url: https://app.ordredesavocats-ci.net/avocat/6d204f4c-3f49-4775-b55a-54b41c581b95
+                    - text: Plus de détails
+                    - generic [ref=e136]: 
+                  - link "Mon cabinet " [ref=e138] [cursor=pointer]:
+                    - /url: https://app.ordredesavocats-ci.net/structures/4adb7f91-7243-43c4-aee2-80547718ce0b
+                    - text: Mon cabinet
+                    - generic [ref=e139]: 
+              - generic [ref=e141]:
+                - img "#" [ref=e143]
+                - generic [ref=e144]:
+                  - link "Maître BILE-AKA JOACHIM" [ref=e145] [cursor=pointer]:
+                    - /url: https://app.ordredesavocats-ci.net/avocat/53cfd24f-3bc4-4541-bc78-ba5e7865143b
+                    - paragraph [ref=e146]: Maître BILE-AKA JOACHIM
+                  - link:
+                    - /url: https://app.ordredesavocats-ci.net/structures/SCPA%20BILE-AKA,%20BRIZOUA%20et%20Associ%C3%A9s
+                  - paragraph:
+                    - link:
+                      - /url: https://app.ordredesavocats-ci.net/structures/SCPA%20BILE-AKA,%20BRIZOUA%20et%20Associ%C3%A9s
+                - generic [ref=e147]:
+                  - link "joachim.bileaka@bilebrizoua.ci" [ref=e148] [cursor=pointer]:
+                    - /url: mailto:joachim.bileaka@bilebrizoua.ci
+                    - paragraph [ref=e149]:
+                      - generic [ref=e150]: joachim.bileaka@bilebrizoua.ci
+                  - link "05 05 05 66 56" [ref=e151] [cursor=pointer]:
+                    - /url: tel:05 05 05 66 56
+                    - generic "05 05 05 66 56" [ref=e152]
+                - generic [ref=e153]:
+                  - link "Plus de détails " [ref=e155] [cursor=pointer]:
+                    - /url: https://app.ordredesavocats-ci.net/avocat/53cfd24f-3bc4-4541-bc78-ba5e7865143b
+                    - text: Plus de détails
+                    - generic [ref=e156]: 
+                  - link "Mon cabinet " [ref=e158] [cursor=pointer]:
+                    - /url: https://app.ordredesavocats-ci.net/structures/4adb7f91-7243-43c4-aee2-80547718ce0b
+                    - text: Mon cabinet
+                    - generic [ref=e159]: 
+              - generic [ref=e161]:
+                - img "#" [ref=e163]
+                - generic [ref=e164]:
+                  - link "Maître BRIZOUA-BI MICHEL KIZITO" [ref=e165] [cursor=pointer]:
+                    - /url: https://app.ordredesavocats-ci.net/avocat/13f3f166-28fb-43b5-a590-05a2922cf131
+                    - paragraph [ref=e166]: Maître BRIZOUA-BI MICHEL KIZITO
+                  - link:
+                    - /url: https://app.ordredesavocats-ci.net/structures/SCPA%20BILE-AKA,%20BRIZOUA%20et%20Associ%C3%A9s
+                  - paragraph:
+                    - link:
+                      - /url: https://app.ordredesavocats-ci.net/structures/SCPA%20BILE-AKA,%20BRIZOUA%20et%20Associ%C3%A9s
+                - generic [ref=e167]:
+                  - link "michel.brizoua@bilebrizoua.ci" [ref=e168] [cursor=pointer]:
+                    - /url: mailto:michel.brizoua@bilebrizoua.ci
+                    - paragraph [ref=e169]:
+                      - generic [ref=e170]: michel.brizoua@bilebrizoua.ci
+                  - link "07 07 87 01 56" [ref=e171] [cursor=pointer]:
+                    - /url: tel:07 07 87 01 56
+                    - generic "07 07 87 01 56" [ref=e172]
+                - generic [ref=e173]:
+                  - link "Plus de détails " [ref=e175] [cursor=pointer]:
+                    - /url: https://app.ordredesavocats-ci.net/avocat/13f3f166-28fb-43b5-a590-05a2922cf131
+                    - text: Plus de détails
+                    - generic [ref=e176]: 
+                  - link "Mon cabinet " [ref=e178] [cursor=pointer]:
+                    - /url: https://app.ordredesavocats-ci.net/structures/4adb7f91-7243-43c4-aee2-80547718ce0b
+                    - text: Mon cabinet
+                    - generic [ref=e179]: 
+              - generic [ref=e181]:
+                - img "#" [ref=e183]
+                - generic [ref=e184]:
+                  - link "Maître BERTE Jean-Yves Albert" [ref=e185] [cursor=pointer]:
+                    - /url: https://app.ordredesavocats-ci.net/avocat/5b47bbaf-28e4-4147-a34e-2f5d7f834a02
+                    - paragraph [ref=e186]: Maître BERTE Jean-Yves Albert
+                  - link:
+                    - /url: https://app.ordredesavocats-ci.net/structures/SCPA%20BILE-AKA,%20BRIZOUA%20et%20Associ%C3%A9s
+                  - paragraph:
+                    - link:
+                      - /url: https://app.ordredesavocats-ci.net/structures/SCPA%20BILE-AKA,%20BRIZOUA%20et%20Associ%C3%A9s
+                - generic [ref=e187]:
+                  - link "jean-yves.berte@bilebrizoua.ci" [ref=e188] [cursor=pointer]:
+                    - /url: mailto:jean-yves.berte@bilebrizoua.ci
+                    - paragraph [ref=e189]:
+                      - generic [ref=e190]: jean-yves.berte@bilebrizoua.ci
+                  - link "07 87 05 51 65" [ref=e191] [cursor=pointer]:
+                    - /url: tel:07 87 05 51 65
+                    - generic "07 87 05 51 65" [ref=e192]
+                - generic [ref=e193]:
+                  - link "Plus de détails " [ref=e195] [cursor=pointer]:
+                    - /url: https://app.ordredesavocats-ci.net/avocat/5b47bbaf-28e4-4147-a34e-2f5d7f834a02
+                    - text: Plus de détails
+                    - generic [ref=e196]: 
+                  - link "Mon cabinet " [ref=e198] [cursor=pointer]:
+                    - /url: https://app.ordredesavocats-ci.net/structures/4adb7f91-7243-43c4-aee2-80547718ce0b
+                    - text: Mon cabinet
+                    - generic [ref=e199]: 
+              - generic [ref=e201]:
+                - img "#" [ref=e203]
+                - generic [ref=e204]:
+                  - link "Maître SOKOLO Ellié Isabelle épse BONI" [ref=e205] [cursor=pointer]:
+                    - /url: https://app.ordredesavocats-ci.net/avocat/7d312d0a-81e7-4e4a-a030-7d52966826b7
+                    - paragraph [ref=e206]: Maître SOKOLO Ellié Isabelle épse BONI
+                  - link:
+                    - /url: https://app.ordredesavocats-ci.net/structures/SCPA%20BILE-AKA,%20BRIZOUA%20et%20Associ%C3%A9s
+                  - paragraph:
+                    - link:
+                      - /url: https://app.ordredesavocats-ci.net/structures/SCPA%20BILE-AKA,%20BRIZOUA%20et%20Associ%C3%A9s
+                - generic [ref=e207]:
+                  - link "isabelle.sokoloboni@bilebrizoua.ci" [ref=e208] [cursor=pointer]:
+                    - /url: mailto:isabelle.sokoloboni@bilebrizoua.ci
+                    - paragraph [ref=e209]:
+                      - generic [ref=e210]: isabelle.sokoloboni@bilebrizoua.ci
+                  - link "07 07 85 77 40" [ref=e211] [cursor=pointer]:
+                    - /url: tel:07 07 85 77 40
+                    - generic "07 07 85 77 40" [ref=e212]
+                - generic [ref=e213]:
+                  - link "Plus de détails " [ref=e215] [cursor=pointer]:
+                    - /url: https://app.ordredesavocats-ci.net/avocat/7d312d0a-81e7-4e4a-a030-7d52966826b7
+                    - text: Plus de détails
+                    - generic [ref=e216]: 
+                  - link "Mon cabinet " [ref=e218] [cursor=pointer]:
+                    - /url: https://app.ordredesavocats-ci.net/structures/4adb7f91-7243-43c4-aee2-80547718ce0b
+                    - text: Mon cabinet
+                    - generic [ref=e219]: 
+              - generic [ref=e221]:
+                - img "#" [ref=e223]
+                - generic [ref=e224]:
+                  - link "Maître KIMOU Constant Michel" [ref=e225] [cursor=pointer]:
+                    - /url: https://app.ordredesavocats-ci.net/avocat/1718cc62-68b7-4e6c-8a74-d668e8ff388c
+                    - paragraph [ref=e226]: Maître KIMOU Constant Michel
+                  - link:
+                    - /url: https://app.ordredesavocats-ci.net/structures/SCPA%20BILE-AKA,%20BRIZOUA%20et%20Associ%C3%A9s
+                  - paragraph:
+                    - link:
+                      - /url: https://app.ordredesavocats-ci.net/structures/SCPA%20BILE-AKA,%20BRIZOUA%20et%20Associ%C3%A9s
+                - generic [ref=e227]:
+                  - link "constant.kimou@bilebrizoua.ci" [ref=e228] [cursor=pointer]:
+                    - /url: mailto:constant.kimou@bilebrizoua.ci
+                    - paragraph [ref=e229]:
+                      - generic [ref=e230]: constant.kimou@bilebrizoua.ci
+                  - link "01 52 10 03 89" [ref=e231] [cursor=pointer]:
+                    - /url: tel:01 52 10 03 89
+                    - generic "01 52 10 03 89" [ref=e232]
+                - generic [ref=e233]:
+                  - link "Plus de détails " [ref=e235] [cursor=pointer]:
+                    - /url: https://app.ordredesavocats-ci.net/avocat/1718cc62-68b7-4e6c-8a74-d668e8ff388c
+                    - text: Plus de détails
+                    - generic [ref=e236]: 
+                  - link "Mon cabinet " [ref=e238] [cursor=pointer]:
+                    - /url: https://app.ordredesavocats-ci.net/structures/4adb7f91-7243-43c4-aee2-80547718ce0b
+                    - text: Mon cabinet
+                    - generic [ref=e239]: 
+              - generic [ref=e241]:
+                - img "#" [ref=e243]
+                - generic [ref=e244]:
+                  - link "Maître WALE Ekpo Bruno" [ref=e245] [cursor=pointer]:
+                    - /url: https://app.ordredesavocats-ci.net/avocat/75d65b4c-4065-48d2-9e5b-945ee2cfaabc
+                    - paragraph [ref=e246]: Maître WALE Ekpo Bruno
+                  - link:
+                    - /url: https://app.ordredesavocats-ci.net/structures/SCPA%20BILE-AKA,%20BRIZOUA%20et%20Associ%C3%A9s
+                  - paragraph:
+                    - link:
+                      - /url: https://app.ordredesavocats-ci.net/structures/SCPA%20BILE-AKA,%20BRIZOUA%20et%20Associ%C3%A9s
+                - generic [ref=e247]:
+                  - link "bruno.wale@bilebrizoua.ci" [ref=e248] [cursor=pointer]:
+                    - /url: mailto:bruno.wale@bilebrizoua.ci
+                    - paragraph [ref=e249]:
+                      - generic [ref=e250]: bruno.wale@bilebrizoua.ci
+                  - link "07 49 69 58 27" [ref=e251] [cursor=pointer]:
+                    - /url: tel:07 49 69 58 27
+                    - generic "07 49 69 58 27" [ref=e252]
+                - generic [ref=e253]:
+                  - link "Plus de détails " [ref=e255] [cursor=pointer]:
+                    - /url: https://app.ordredesavocats-ci.net/avocat/75d65b4c-4065-48d2-9e5b-945ee2cfaabc
+                    - text: Plus de détails
+                    - generic [ref=e256]: 
+                  - link "Mon cabinet " [ref=e258] [cursor=pointer]:
+                    - /url: https://app.ordredesavocats-ci.net/structures/4adb7f91-7243-43c4-aee2-80547718ce0b
+                    - text: Mon cabinet
+                    - generic [ref=e259]: 
+              - navigation [ref=e261]:
+                - list [ref=e264]:
+                  - listitem "« Précédent" [ref=e265]:
+                    - generic: ‹
+                  - listitem [ref=e266]:
+                    - generic [ref=e267]: "1"
+                  - listitem [ref=e268]:
+                    - link "2" [ref=e269] [cursor=pointer]:
+                      - /url: https://app.ordredesavocats-ci.net/avocat/c6950cdf-3012-4308-9cc8-1120d7921551?page=2
+                  - listitem [ref=e270]:
+                    - link "Suivant »" [ref=e271] [cursor=pointer]:
+                      - /url: https://app.ordredesavocats-ci.net/avocat/c6950cdf-3012-4308-9cc8-1120d7921551?page=2
+                      - text: ›
+      - contentinfo [ref=e272]:
+        - paragraph [ref=e276]: © Copyright Barreau de Côte d'Ivoire 2023 • Designed by HARRELL GROUP
+  - text:      
+  - generic [ref=e279]:
+    - generic [ref=e280] [cursor=pointer]: 
+    - heading "Preview Settings" [level=5] [ref=e281]
+    - paragraph [ref=e282]: Try It Real Time
+  - img

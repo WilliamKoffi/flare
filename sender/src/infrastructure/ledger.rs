@@ -40,6 +40,10 @@ impl Ledger {
         self.count(Utc::now().date_naive())
     }
 
+    pub fn earliest(&self) -> Option<NaiveDate> {
+        self.entries.values().map(|sent| sent.date_naive()).min()
+    }
+
     pub fn record(&mut self, id: &str) -> anyhow::Result<()> {
         self.entries.insert(id.to_string(), Utc::now());
         if let Some(parent) = std::path::Path::new(&self.path).parent() {
@@ -51,31 +55,5 @@ impl Ledger {
 }
 
 #[cfg(test)]
-mod tests {
-    use super::Ledger;
-    use chrono::{TimeZone, Utc};
-    use std::collections::HashMap;
-
-    #[test]
-    fn counts_entries_for_date() {
-        let entries = HashMap::from([
-            (
-                "a".into(),
-                Utc.with_ymd_and_hms(2026, 6, 20, 10, 0, 0).unwrap(),
-            ),
-            (
-                "b".into(),
-                Utc.with_ymd_and_hms(2026, 6, 19, 23, 59, 0).unwrap(),
-            ),
-        ]);
-        let ledger = Ledger {
-            path: String::new(),
-            entries,
-        };
-
-        assert_eq!(
-            ledger.count(chrono::NaiveDate::from_ymd_opt(2026, 6, 20).unwrap()),
-            1
-        );
-    }
-}
+#[path = "tests/ledger_tests.rs"]
+mod tests;
