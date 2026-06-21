@@ -2,9 +2,11 @@ use std::io::Cursor;
 
 use base64::engine::general_purpose::STANDARD;
 use base64::Engine;
-use google_gmail1::api::Message;
+use google_gmail1::api::Message as GmailMessage;
 use google_gmail1::{hyper, hyper_rustls, Gmail};
 use yup_oauth2::{InstalledFlowAuthenticator, InstalledFlowReturnMethod};
+
+use crate::message::Message;
 
 pub struct Mailbox {
     hub: Gmail<hyper_rustls::HttpsConnector<hyper::client::HttpConnector>>,
@@ -33,10 +35,10 @@ impl Mailbox {
         Ok(Self { hub, from })
     }
 
-    pub async fn send(&self, to: &str, subject: &str, body: &str) -> anyhow::Result<()> {
-        header(to, "recipient")?;
-        header(subject, "subject")?;
-        let subject = format!("=?UTF-8?B?{}?=", STANDARD.encode(subject));
+    pub async fn send(&self, message: &Message) -> anyhow::Result<()> {
+        header(message.recipient(), "recipient")?;
+        header(message.subject(), "subject")?;
+        let subject = format!("=?UTF-8?B?{}?=", STANDARD.encode(message.subject()));
         let raw = format!(
             "From: {}\r\n\
              To: {}\r\n\
@@ -46,10 +48,13 @@ impl Mailbox {
              Content-Transfer-Encoding: 8bit\r\n\
              \r\n\
              {}",
-            self.from, to, subject, body
+            self.from,
+            message.recipient(),
+            subject,
+            message.body()
         );
 
-        let message = Message::default();
+        let message = GmailMessage::default();
         let mime: mime::Mime = "message/rfc822".parse()?;
         let stream = Cursor::new(raw.into_bytes());
 

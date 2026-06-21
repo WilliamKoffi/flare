@@ -4,18 +4,61 @@ use crate::prospect::Prospects;
 use crate::template::Template;
 use crate::throttle::Throttle;
 
-pub struct Campaign<'a> {
-    pub prospects: &'a Prospects,
-    pub ledger: &'a mut Ledger,
-    pub template: &'a Template,
-    pub throttle: &'a Throttle,
-    pub mailbox: Option<&'a Mailbox>,
-    pub base: &'a str,
-    pub cap: usize,
-    pub preview: bool,
+enum Mode<'a> {
+    Preview,
+    Delivery(&'a Mailbox),
 }
 
-impl Campaign<'_> {
+pub struct Campaign<'a> {
+    prospects: &'a Prospects,
+    ledger: &'a mut Ledger,
+    template: &'a Template,
+    throttle: &'a Throttle,
+    mode: Mode<'a>,
+    base: &'a str,
+    cap: usize,
+}
+
+impl<'a> Campaign<'a> {
+    pub fn preview(
+        prospects: &'a Prospects,
+        ledger: &'a mut Ledger,
+        template: &'a Template,
+        throttle: &'a Throttle,
+        base: &'a str,
+        cap: usize,
+    ) -> Self {
+        Self {
+            prospects,
+            ledger,
+            template,
+            throttle,
+            mode: Mode::Preview,
+            base,
+            cap,
+        }
+    }
+
+    pub fn delivery(
+        prospects: &'a Prospects,
+        ledger: &'a mut Ledger,
+        template: &'a Template,
+        throttle: &'a Throttle,
+        mailbox: &'a Mailbox,
+        base: &'a str,
+        cap: usize,
+    ) -> Self {
+        Self {
+            prospects,
+            ledger,
+            template,
+            throttle,
+            mode: Mode::Delivery(mailbox),
+            base,
+            cap,
+        }
+    }
+
     pub async fn run(&mut self) -> anyhow::Result<()> {
         let mut count = self.ledger.today();
         let mut delivered = false;
@@ -31,26 +74,29 @@ impl Campaign<'_> {
                 break;
             }
 
-            let body = self.template.render(prospect, self.base);
-            let subject = format!("Présentation web — Maître {}", prospect.name);
+            let message = self.template.render(prospect, self.base);
 
-            if self.preview {
-                println!("\n--- DRY RUN : {} <{}> ---", prospect.name, prospect.email);
-                println!("Sujet : {}", subject);
-                println!("{}", body);
-                println!("--- fin ---\n");
-            } else {
-                if delivered {
-                    self.throttle.wait().await;
+            match self.mode {
+                Mode::Preview => {
+                    println!(
+                        "\n--- DRY RUN : {} <{}> ---",
+                        prospect.name,
+                        message.recipient()
+                    );
+                    println!("Sujet : {}", message.subject());
+                    println!("{}", message.body());
+                    println!("--- fin ---\n");
                 }
+                Mode::Delivery(mailbox) => {
+                    if delivered {
+                        self.throttle.wait().await;
+                    }
 
-                let mailbox = self
-                    .mailbox
-                    .ok_or_else(|| anyhow::anyhow!("mailbox is required for delivery"))?;
-                mailbox.send(&prospect.email, &subject, &body).await?;
-                self.ledger.record(&prospect.id)?;
-                println!("✓ Envoyé à {} <{}>", prospect.name, prospect.email);
-                delivered = true;
+                    mailbox.send(&message).await?;
+                    self.ledger.record(&prospect.id)?;
+                    println!("✓ Envoyé à {} <{}>", prospect.name, message.recipient());
+                    delivered = true;
+                }
             }
 
             count += 1;

@@ -1,17 +1,33 @@
+use crate::message::Message;
 use crate::prospect::Prospect;
 
-pub struct Template(String);
+pub struct Template {
+    subject: String,
+    body: String,
+}
 
 impl Template {
-    pub fn load(path: &str) -> anyhow::Result<Self> {
-        Ok(Self(std::fs::read_to_string(path)?))
+    pub fn load() -> anyhow::Result<Self> {
+        let subject = std::env::var("MAIL_SUBJECT")?;
+        let body_path = std::env::var("MAIL_BODY_PATH")?;
+        let body = std::fs::read_to_string(&body_path)?;
+
+        Ok(Self { subject, body })
     }
 
-    pub fn render(&self, prospect: &Prospect, base: &str) -> String {
-        self.0
-            .replace("{{name}}", &prospect.name)
-            .replace("{{link}}", &prospect.link(base))
+    pub fn render(&self, prospect: &Prospect, base: &str) -> Message {
+        Message::new(
+            prospect.email.clone(),
+            interpolate(&self.subject, prospect, base),
+            interpolate(&self.body, prospect, base),
+        )
     }
+}
+
+fn interpolate(value: &str, prospect: &Prospect, base: &str) -> String {
+    value
+        .replace("{{name}}", &prospect.name)
+        .replace("{{link}}", &prospect.link(base))
 }
 
 #[cfg(test)]
@@ -21,7 +37,10 @@ mod tests {
 
     #[test]
     fn renders_prospect() {
-        let template = Template("Bonjour {{name}} — {{link}}".into());
+        let template = Template {
+            subject: "Présentation web — Maître {{name}}".into(),
+            body: "Bonjour {{name}} — {{link}}".into(),
+        };
         let prospect = Prospect {
             id: "1".into(),
             name: "Aya".into(),
@@ -32,7 +51,9 @@ mod tests {
 
         let message = template.render(&prospect, "https://example.com");
 
-        assert!(message.contains("Bonjour Aya"));
-        assert!(message.contains("https://example.com/?name=Aya"));
+        assert_eq!(message.recipient(), "aya@example.com");
+        assert_eq!(message.subject(), "Présentation web — Maître Aya");
+        assert!(message.body().contains("Bonjour Aya"));
+        assert!(message.body().contains("https://example.com/?name=Aya"));
     }
 }

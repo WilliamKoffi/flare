@@ -1,8 +1,9 @@
 # Prospect Mailer
 
 Prospect Mailer is a small Rust command-line application for sending personalized
-outreach emails through the Gmail API. It reads prospects from JSON, renders a
-plain-text message from a template, adds a personalized website URL, throttles
+outreach emails through the Gmail API. It reads prospects from JSON and mail
+settings from a runtime `.env` file, renders a Markdown message as plain text, adds
+a personalized website URL, throttles
 deliveries, and records successful sends to avoid contacting the same prospect
 twice.
 
@@ -12,7 +13,7 @@ mailer's prospect format before it can be used.
 
 ## Features
 
-- Personalized email content from a Markdown template
+- Runtime-configurable email subject and Markdown body
 - Personalized links built from prospect data
 - Gmail API delivery with OAuth 2.0
 - Dry-run mode for reviewing messages without sending them
@@ -32,6 +33,7 @@ mailer's prospect format before it can be used.
 
 ```text
 .
+├── .env               # Private runtime config, ignored by Git
 ├── src/
 │   ├── main.rs       # CLI and sending workflow
 │   ├── prospect.rs   # Prospect loading and personalized URL generation
@@ -46,7 +48,7 @@ mailer's prospect format before it can be used.
     ├── credentials.json  # Gmail OAuth client credentials
     ├── token.json        # Generated OAuth token
     ├── sent.json         # Generated delivery ledger
-    └── template.md       # Email template
+    └── body.md           # Private message body, ignored by Git
 ```
 
 ## Gmail Setup
@@ -96,9 +98,30 @@ headers:
 <base-url>/?name=...&gender=...&color=...
 ```
 
-## Email Template
+## Mail Configuration
 
-The default template is `storage/template.md`. It supports these placeholders:
+Generate the private runtime files:
+
+```bash
+cargo run -- --init
+```
+
+The command creates `.env`, `storage/body.md`, `storage/prospects.json`, and
+`storage/sent.json` when they do not exist. Existing files are never
+overwritten. Google OAuth credentials must still be downloaded to
+`storage/credentials.json`; `storage/token.json` is generated during the first
+OAuth authorization.
+
+Edit `.env` to change the subject or body path:
+
+```dotenv
+MAIL_SUBJECT="Une idée de vitrine web pour votre cabinet — Maître {{name}}"
+MAIL_BODY_PATH="storage/body.md"
+```
+
+Edit `storage/body.md` to change the body. Both private files are ignored by
+Git and are loaded at runtime, so they can be changed after compiling the
+application. The subject and body support these placeholders:
 
 ```text
 {{name}}
@@ -135,9 +158,10 @@ cargo run --release -- \
 Available options:
 
 ```text
+--init                    Generate missing local runtime files
 --prospects <PATH>      Prospect JSON file (default: storage/prospects.json)
 --ledger <PATH>         Successful-send ledger (default: storage/sent.json)
---template <PATH>       Message template (default: storage/template.md)
+--env-file <PATH>       Runtime environment file (default: .env)
 --base-url <URL>        Required personalized website base URL
 --from <EMAIL>          Required sender address
 --min-delay <SECONDS>   Minimum delay after a send (default: 600)
