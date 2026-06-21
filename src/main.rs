@@ -1,22 +1,26 @@
 use clap::Parser;
 
+mod campaign;
 mod ledger;
 mod mailbox;
 mod prospect;
+mod template;
 mod throttle;
 
+use campaign::Campaign;
 use ledger::Ledger;
 use mailbox::Mailbox;
-use prospect::Prospect;
+use prospect::Prospects;
+use template::Template;
 use throttle::Throttle;
 
 #[derive(Parser, Debug)]
 struct Cli {
-    #[arg(long, default_value = "prospects.json")]
+    #[arg(long, default_value = "storage/prospects.json")]
     prospects: String,
-    #[arg(long, default_value = "sent.json")]
+    #[arg(long, default_value = "storage/sent.json")]
     ledger: String,
-    #[arg(long, default_value = "template.md")]
+    #[arg(long, default_value = "storage/template.md")]
     template: String,
     #[arg(long)]
     base_url: String,
@@ -40,9 +44,9 @@ async fn main() -> anyhow::Result<()> {
         anyhow::bail!("min_delay must be <= max_delay");
     }
 
-    let prospects = Prospect::load_all(&cli.prospects)?;
+    let prospects = Prospects::load(&cli.prospects)?;
     let mut ledger = Ledger::open(&cli.ledger)?;
-    let template = std::fs::read_to_string(&cli.template)?;
+    let template = Template::load(&cli.template)?;
     let throttle = Throttle::new(cli.min_delay, cli.max_delay);
 
     let mailbox = if cli.dry_run {
@@ -51,46 +55,16 @@ async fn main() -> anyhow::Result<()> {
         Some(Mailbox::authenticate(cli.from.clone()).await?)
     };
 
-    let mut sent_today = 0usize;
-
-    for prospect in &prospects {
-        if ledger.has_sent(&prospect.id) {
-            println!("⏭  {} — déjà envoyé", prospect.nom);
-            continue;
-        }
-
-        if sent_today >= cli.daily_cap {
-            println!("🛑 Quota journalier atteint ({}).", cli.daily_cap);
-            break;
-        }
-
-        let link = prospect.link(&cli.base_url);
-        let body = render_template(&template, prospect, &link);
-        let subject = format!("Présentation web — Maître {}", prospect.nom);
-
-        if cli.dry_run {
-            println!("\n--- DRY RUN : {} <{}> ---", prospect.nom, prospect.email);
-            println!("Sujet : {}", subject);
-            println!("{}", body);
-            println!("--- fin ---\n");
-        } else {
-            let mailbox = mailbox
-                .as_ref()
-                .expect("mailbox is present when not dry_run");
-            mailbox.send(&prospect.email, &subject, &body).await?;
-            ledger.record(&prospect.id)?;
-            println!("✓ Envoyé à {} <{}>", prospect.nom, prospect.email);
-            sent_today += 1;
-            throttle.wait().await;
-        }
+    Campaign {
+        prospects: &prospects,
+        ledger: &mut ledger,
+        template: &template,
+        throttle: &throttle,
+        mailbox: mailbox.as_ref(),
+        base: &cli.base_url,
+        cap: cli.daily_cap,
+        preview: cli.dry_run,
     }
-
-    Ok(())
-}
-
-fn render_template(template: &str, prospect: &Prospect, link: &str) -> String {
-    template
-        .replace("{{nom}}", &prospect.nom)
-        .replace("{{specialite}}", &prospect.specialite)
-        .replace("{{link}}", link)
+    .run()
+    .await
 }

@@ -1,4 +1,4 @@
-use chrono::{DateTime, Utc};
+use chrono::{DateTime, NaiveDate, Utc};
 use serde::{Deserialize, Serialize};
 use std::collections::HashMap;
 
@@ -25,13 +25,57 @@ impl Ledger {
         }
     }
 
-    pub fn has_sent(&self, id: &str) -> bool {
+    pub fn sent(&self, id: &str) -> bool {
         self.entries.contains_key(id)
+    }
+
+    pub fn count(&self, date: NaiveDate) -> usize {
+        self.entries
+            .values()
+            .filter(|sent| sent.date_naive() == date)
+            .count()
+    }
+
+    pub fn today(&self) -> usize {
+        self.count(Utc::now().date_naive())
     }
 
     pub fn record(&mut self, id: &str) -> anyhow::Result<()> {
         self.entries.insert(id.to_string(), Utc::now());
+        if let Some(parent) = std::path::Path::new(&self.path).parent() {
+            std::fs::create_dir_all(parent)?;
+        }
         std::fs::write(&self.path, serde_json::to_string_pretty(self)?)?;
         Ok(())
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::Ledger;
+    use chrono::{TimeZone, Utc};
+    use std::collections::HashMap;
+
+    #[test]
+    fn counts_entries_for_date() {
+        let entries = HashMap::from([
+            (
+                "a".into(),
+                Utc.with_ymd_and_hms(2026, 6, 20, 10, 0, 0).unwrap(),
+            ),
+            (
+                "b".into(),
+                Utc.with_ymd_and_hms(2026, 6, 19, 23, 59, 0).unwrap(),
+            ),
+        ]);
+        let ledger = Ledger {
+            path: String::new(),
+            entries,
+        };
+
+        assert_eq!(
+            ledger.count(chrono::NaiveDate::from_ymd_opt(2026, 6, 20).unwrap()),
+            1
+        );
     }
 }

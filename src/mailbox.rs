@@ -1,5 +1,7 @@
 use std::io::Cursor;
 
+use base64::engine::general_purpose::STANDARD;
+use base64::Engine;
 use google_gmail1::api::Message;
 use google_gmail1::{hyper, hyper_rustls, Gmail};
 use yup_oauth2::{InstalledFlowAuthenticator, InstalledFlowReturnMethod};
@@ -11,10 +13,11 @@ pub struct Mailbox {
 
 impl Mailbox {
     pub async fn authenticate(from: String) -> anyhow::Result<Self> {
-        let secret = yup_oauth2::read_application_secret("credentials.json").await?;
+        header(&from, "sender")?;
+        let secret = yup_oauth2::read_application_secret("storage/credentials.json").await?;
         let auth =
             InstalledFlowAuthenticator::builder(secret, InstalledFlowReturnMethod::HTTPRedirect)
-                .persist_tokens_to_disk("token.json")
+                .persist_tokens_to_disk("storage/token.json")
                 .build()
                 .await?;
 
@@ -31,7 +34,10 @@ impl Mailbox {
     }
 
     pub async fn send(&self, to: &str, subject: &str, body: &str) -> anyhow::Result<()> {
-        let raw_mail = format!(
+        header(to, "recipient")?;
+        header(subject, "subject")?;
+        let subject = format!("=?UTF-8?B?{}?=", STANDARD.encode(subject));
+        let raw = format!(
             "From: {}\r\n\
              To: {}\r\n\
              Subject: {}\r\n\
@@ -44,14 +50,33 @@ impl Mailbox {
         );
 
         let message = Message::default();
-        let mime_type: mime::Mime = "message/rfc822".parse()?;
-        let stream = Cursor::new(raw_mail.into_bytes());
+        let mime: mime::Mime = "message/rfc822".parse()?;
+        let stream = Cursor::new(raw.into_bytes());
 
         self.hub
             .users()
             .messages_send(message, "me")
-            .upload(stream, mime_type)
+            .upload(stream, mime)
             .await?;
         Ok(())
+    }
+}
+
+fn header(value: &str, field: &str) -> anyhow::Result<()> {
+    anyhow::ensure!(
+        !value.contains(['\r', '\n']),
+        "{field} contains a line break"
+    );
+    Ok(())
+}
+
+#[cfg(test)]
+mod tests {
+    use super::header;
+
+    #[test]
+    fn rejects_header_injection() {
+        assert!(header("person@example.com\r\nBcc: victim@example.com", "recipient").is_err());
+        assert!(header("Safe value", "subject").is_ok());
     }
 }
